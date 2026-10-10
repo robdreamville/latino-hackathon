@@ -6,3 +6,4 @@ pdfplumber
 twilio
 tavily-python
 elevenlabs
+python-dotenv
