@@ -18,7 +18,7 @@ if "--persona" in sys.argv:
     if i + 1 < len(sys.argv):
         persona = sys.argv[i + 1]
 
-key = input("Session key (phone, e.g. +15551234567): ").strip() or "test:+15550001111"
+key = "+12018521309"  # Roberto test number
 
 print(f"\n--- Centinela [{persona}] ---  (type 'quit' to exit)\n")
 
