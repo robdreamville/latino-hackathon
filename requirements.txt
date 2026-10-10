@@ -1,1 +1,8 @@
-ZmFzdGFwaQp1dmljb3JuCmdvb2dsZS1nZW5lcmF0aXZlYWkKY2hyb21hZGIKcGRmcGx1bWJlcgp0d2lsaW8KdGF2aWx5LXB5dGhvbgplbGV2ZW5sYWJzCg==
+fastapi
+uvicorn
+google-generativeai
+chromadb
+pdfplumber
+twilio
+tavily-python
+elevenlabs
