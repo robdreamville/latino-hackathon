@@ -10,6 +10,9 @@ from fastapi.responses import JSONResponse
 import db
 from agent import run_agent
 
+from dotenv import load_dotenv
+load_dotenv()
+
 app = FastAPI(title="Centinela")
 
 GREETING = (
