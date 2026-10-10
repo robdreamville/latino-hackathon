@@ -137,3 +137,31 @@ def get_review_queue():
     rows = [dict(r) for r in c.fetchall()]
     conn.close()
     return rows
+
+
+def get_all_clients():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+    c.execute("SELECT phone, name, age, attorney, case_type, benefit_sought, language, case_facts FROM clients")
+    rows = []
+    for r in c.fetchall():
+        d = dict(r)
+        d["case_facts"] = json.loads(d["case_facts"] or "{}")
+        rows.append(d)
+    conn.close()
+    return rows
+
+
+def get_all_documents():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+    c.execute("""
+        SELECT d.*, c.name as client_name FROM documents d
+        LEFT JOIN clients c ON d.phone = c.phone
+        ORDER BY d.created_at DESC
+    """)
+    rows = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return rows
