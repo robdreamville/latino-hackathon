@@ -1,1 +1,129 @@
-IyBhZ2VudC5weSDigJQgQ2VudGluZWxhIGFnZW50IGNvcmUKIyBPbmUgUmVBY3QgbG9vcCwgdHdvIHBlcnNvbmFzLiBTZXNzaW9uOiBpbi1tZW1vcnkgZGljdCwgU1FMaXRlIHdyaXRlLXRocm91Z2guCiMgQmFzZWQgb24gdGhlIGNsZWFuLWFnZW50IHBhdHRlcm46IFRPT0xTIGRpY3Qgb2YgcGxhaW4gZnVuY3Rpb25zLCBoYW5kLXJvbGxlZCBsb29wLgoKaW1wb3J0IGpzb24KaW1wb3J0IG9zCgppbXBvcnQgZ29vZ2xlLmdlbmVyYXRpdmVhaSBhcyBnZW5haQoKaW1wb3J0IGRiCmZyb20gdG9vbHMgaW1wb3J0IFRPT0xTCgpNT0RFTCA9ICJnZW1pbmktMi41LWZsYXNoIgpNQVhfU1RFUFMgPSA2CgpnZW5haS5jb25maWd1cmUoYXBpX2tleT1vcy5lbnZpcm9uLmdldCgiR0VNSU5JX0FQSV9LRVkiKSkKCiMgLS0tIFBlcnNvbmFzIC0tLQoKQ0xJRU5UX1NZU1RFTSA9ICIiIkVyZXMgQ2VudGluZWxhLCBlbCBhc2lzdGVudGUgZGVsIGFib2dhZG8gZGUgaW5taWdyYWNpw7NuIGRlIGVzdGUgY2xpZW50ZS4KSGFibGFzIGVzcGHDsW9sLCBjw6FsaWRvIHBlcm8gY2xhcm8uIEV4cGxpY2FzIGxhcyBjb3NhcyBlbiBsZW5ndWFqZSBzZW5jaWxsby4KClJFR0xBUzoKLSBSZXNwb25kZXMgU09MTyBlbiBlc3Bhw7FvbCAoYSBtZW5vcyBxdWUgZWwgY2xpZW50ZSBlc2NyaWJhIGVuIGluZ2zDqXMpLgotIFVzYXMgc2VhcmNoX2RvY3MgcGFyYSBwcmVndW50YXMgc29icmUgZm9ybXVsYXJpb3MsIHByb2Nlc29zIHkgcmVxdWlzaXRvcy4KLSBVc2FzIHdlYl9zZWFyY2ggcGFyYSBub3RpY2lhcywgY2FtYmlvcyBkZSBsZXkgbyBpbmZvcm1hY2nDs24gYWN0dWFsLgotIFNpIG5vIHNhYmVzIGxhIHJlc3B1ZXN0YSBvIGVzIHVuYSBkZWNpc2nDs24gbGVnYWwsIGRpY2VzICJubyBzw6kiIHkgdXNhcwogIGZsYWdfZm9yX2F0dG9ybmV5LiBOVU5DQSBpbnZlbnRhcyB1bmEgcmVzcHVlc3RhIGxlZ2FsLgotIFNpIGVsIGNsaWVudGUgcGlkZSB2b3ogbyBhdWRpbywgcmVzcG9uZGUgcXVlIGxlIGVudmlhcsOhcyB1bmEgbm90YSBkZSB2b3ouCi0gRXJlcyB1bmEgZXh0ZW5zacOzbiBkZWwgYWJvZ2Fkbywgbm8gdW4gcmVlbXBsYXpvLiBFbCBhYm9nYWRvIHRvbWEgbGFzIGRlY2lzaW9uZXMgbGVnYWxlcy4KIiIiCgpGSVJNX1NZU1RFTSA9ICIiIllvdSBhcmUgQ2VudGluZWxhLCB0aGUgQUkgb3BlcmF0aW9ucyBhc3Npc3RhbnQgZm9yIGFuIGltbWlncmF0aW9uIGxhdyBmaXJtLgpZb3UgaGVscCB0aGUgcGFyYWxlZ2FsIGFuZCBhdHRvcm5leSBtYW5hZ2UgY2xpZW50cy4gWW91IGFyZSBjb25jaXNlIGFuZCBvcGVyYXRpb25hbC4KCllvdSBoYXZlIHRvb2xzIHRvIG1lc3NhZ2UgY2xpZW50cywgY2hlY2sgc3RhdHVzLCByZXZpZXcgZXNjYWxhdGlvbnMsIGFuZCBtYW5hZ2UgZG9jdW1lbnRzLgpXaGVuIHRoZSBmaXJtIGFza3MgeW91IHRvIGRvIHNvbWV0aGluZywgdXNlIHRoZSByaWdodCB0b29sLCB0aGVuIGNvbmZpcm0gd2hhdCB5b3UgZGlkLgpJZiBhIHJlcXVlc3QgaXMgYW1iaWd1b3VzICh3aGljaCBjbGllbnQ/KSwgYXNrIGZvciBjbGFyaWZpY2F0aW9uIGJlZm9yZSBhY3RpbmcuCiIiIgoKCiMgLS0tIFNlc3Npb24gbWFuYWdlbWVudCAtLS0KIyBJbi1tZW1vcnk6IGtleSAtPiB7Imhpc3RvcnkiOiBbeyJyb2xlIjouLi4sICJ0ZXh0IjouLi59XSwgInByb2ZpbGUiOiB7Li4ufX0KIyBTUUxpdGUgaXMgdGhlIGR1cmFibGUgc3RvcmUuIFJlYWQgb25jZSBwZXIgc2Vzc2lvbiwgd3JpdGUgZXZlcnkgbWVzc2FnZS4KCl9zZXNzaW9ucyA9IHt9CgoKZGVmIGdldF9zZXNzaW9uKGtleSk6CiAgICBpZiBrZXkgaW4gX3Nlc3Npb25zOgogICAgICAgIHJldHVybiBfc2Vzc2lvbnNba2V5XQogICAgcHJvZmlsZSA9IGRiLmdldF9jbGllbnQoa2V5KSBvciB7InBob25lIjoga2V5LCAibmFtZSI6ICJVbmtub3duIiwgImNhc2VfZmFjdHMiOiB7fX0KICAgIGhpc3RvcnkgPSBkYi5nZXRfcmVjZW50X21lc3NhZ2VzKGtleSwgbGltaXQ9MTApCiAgICBzZXNzaW9uID0geyJoaXN0b3J5IjogaGlzdG9yeSwgInByb2ZpbGUiOiBwcm9maWxlfQogICAgX3Nlc3Npb25zW2tleV0gPSBzZXNzaW9uCiAgICByZXR1cm4gc2Vzc2lvbgoKCmRlZiBfdG9vbF9zY2hlbWFzKCk6CiAgICAjIEdlbWluaSBmdW5jdGlvbi1jYWxsaW5nIHNjaGVtYXMsIGdlbmVyYXRlZCBmcm9tIFRPT0xTIG1ldGFkYXRhCiAgICByZXR1cm4gWwogICAgICAgIHsKICAgICAgICAgICAgIm5hbWUiOiBuYW1lLAogICAgICAgICAgICAiZGVzY3JpcHRpb24iOiBmblsiZGVzY3JpcHRpb24iXSwKICAgICAgICAgICAgInBhcmFtZXRlcnMiOiBmblsicGFyYW1ldGVycyJdLAogICAgICAgIH0KICAgICAgICBmb3IgbmFtZSwgZm4gaW4gVE9PTFMuaXRlbXMoKQogICAgXQoKCmRlZiBydW5fYWdlbnQoa2V5LCB1c2VyX21lc3NhZ2UsIHBlcnNvbmE9ImNsaWVudCIpOgogICAgIiIiUnVuIG9uZSBSZUFjdCB0dXJuLiBSZXR1cm5zIHRoZSBhZ2VudCdzIHJlcGx5IHRleHQuIiIiCiAgICBzZXNzaW9uID0gZ2V0X3Nlc3Npb24oa2V5KQogICAgc3lzdGVtID0gQ0xJRU5UX1NZU1RFTSBpZiBwZXJzb25hID09ICJjbGllbnQiIGVsc2UgRklSTV9TWVNURU0KCiAgICAjIEJ1aWxkIGNvbnZlcnNhdGlvbiBmb3IgdGhlIG1vZGVsCiAgICBjb250ZW50cyA9IFtdCiAgICBmb3IgbSBpbiBzZXNzaW9uWyJoaXN0b3J5Il06CiAgICAgICAgY29udGVudHMuYXBwZW5kKHsicm9sZSI6ICJ1c2VyIiBpZiBtWyJyb2xlIl0gPT0gInVzZXIiIGVsc2UgIm1vZGVsIiwKICAgICAgICAgICAgICAgICAgICAgICAgICJwYXJ0cyI6IFttWyJ0ZXh0Il1dfSkKICAgIGNvbnRlbnRzLmFwcGVuZCh7InJvbGUiOiAidXNlciIsICJwYXJ0cyI6IFt1c2VyX21lc3NhZ2VdfSkKCiAgICBtb2RlbCA9IGdlbmFpLkdlbmVyYXRpdmVNb2RlbCgKICAgICAgICBNT0RFTCwKICAgICAgICBzeXN0ZW1faW5zdHJ1Y3Rpb249c3lzdGVtLAogICAgICAgIHRvb2xzPV90b29sX3NjaGVtYXMoKSwKICAgICkKICAgIGNoYXQgPSBtb2RlbC5zdGFydF9jaGF0KGhpc3Rvcnk9Y29udGVudHNbOi0xXSkKCiAgICAjIFBlcnNpc3QgdGhlIGluY29taW5nIG1lc3NhZ2UKICAgIGRiLnNhdmVfbWVzc2FnZShrZXksICJ1c2VyIiwgdXNlcl9tZXNzYWdlKQogICAgc2Vzc2lvblsiaGlzdG9yeSJdLmFwcGVuZCh7InJvbGUiOiAidXNlciIsICJ0ZXh0IjogdXNlcl9tZXNzYWdlfSkKCiAgICByZXNwb25zZSA9IGNoYXQuc2VuZF9tZXNzYWdlKGNvbnRlbnRzWy0xXVsicGFydHMiXVswXSkKCiAgICBmb3IgXyBpbiByYW5nZShNQVhfU1RFUFMpOgogICAgICAgICMgTm8gZnVuY3Rpb24gY2FsbHMgPSBmaW5hbCBhbnN3ZXIKICAgICAgICBpZiBub3QgcmVzcG9uc2UuY2FuZGlkYXRlc1swXS5jb250ZW50LnBhcnRzOgogICAgICAgICAgICBicmVhawogICAgICAgIGZuX2NhbGxzID0gW3AuZnVuY3Rpb25fY2FsbCBmb3IgcCBpbiByZXNwb25zZS5jYW5kaWRhdGVzWzBdLmNvbnRlbnQucGFydHMKICAgICAgICAgICAgICAgICAgICBpZiBoYXNhdHRyKHAsICJmdW5jdGlvbl9jYWxsIikgYW5kIHAuZnVuY3Rpb25fY2FsbF0KICAgICAgICBpZiBub3QgZm5fY2FsbHM6CiAgICAgICAgICAgIGJyZWFrCgogICAgICAgICMgRXhlY3V0ZSB0b29scywgZmVlZCByZXN1bHRzIGJhY2sKICAgICAgICBmbl9yZXNwb25zZXMgPSBbXQogICAgICAgIGZvciBmYyBpbiBmbl9jYWxsczoKICAgICAgICAgICAgbmFtZSA9IGZjLm5hbWUKICAgICAgICAgICAgYXJncyA9IHtrOiB2IGZvciBrLCB2IGluIGZjLmFyZ3MuaXRlbXMoKX0KICAgICAgICAgICAgIyBJbmplY3Qgc2Vzc2lvbiBrZXkgZm9yIHRvb2xzIHRoYXQgbmVlZCBpdAogICAgICAgICAgICBpZiAic2Vzc2lvbl9rZXkiIGluIFRPT0xTW25hbWVdWyJwYXJhbWV0ZXJzIl0uZ2V0KCJwcm9wZXJ0aWVzIiwge30pOgogICAgICAgICAgICAgICAgYXJncy5zZXRkZWZhdWx0KCJzZXNzaW9uX2tleSIsIGtleSkKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcmVzdWx0ID0gVE9PTFNbbmFtZV1bImZ1bmN0aW9uIl0oKiphcmdzKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICByZXN1bHQgPSB7ImVycm9yIjogc3RyKGUpfQogICAgICAgICAgICBmbl9yZXNwb25zZXMuYXBwZW5kKHsKICAgICAgICAgICAgICAgICJmdW5jdGlvbl9yZXNwb25zZSI6IHsibmFtZSI6IG5hbWUsICJyZXNwb25zZSI6IHsicmVzdWx0IjogcmVzdWx0fX0KICAgICAgICAgICAgfSkKICAgICAgICByZXNwb25zZSA9IGNoYXQuc2VuZF9tZXNzYWdlKGZuX3Jlc3BvbnNlcykKCiAgICByZXBseSA9IHJlc3BvbnNlLnRleHQgb3IgIiIKCiAgICBkYi5zYXZlX21lc3NhZ2Uoa2V5LCAiYXNzaXN0YW50IiwgcmVwbHkpCiAgICBzZXNzaW9uWyJoaXN0b3J5Il0uYXBwZW5kKHsicm9sZSI6ICJhc3Npc3RhbnQiLCAidGV4dCI6IHJlcGx5fSkKICAgICMgS2VlcCBtZW1vcnkgYm91bmRlZAogICAgc2Vzc2lvblsiaGlzdG9yeSJdID0gc2Vzc2lvblsiaGlzdG9yeSJdWy0yMDpdCgogICAgcmV0dXJuIHJlcGx5Cg==
+# agent.py — Centinela agent core
+# One ReAct loop, two personas. Session: in-memory dict, SQLite write-through.
+# Based on the clean-agent pattern: TOOLS dict of plain functions, hand-rolled loop.
+
+import json
+import os
+
+import google.generativeai as genai
+
+import db
+from tools import TOOLS
+
+MODEL = "gemini-2.5-flash"
+MAX_STEPS = 6
+
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+
+# --- Personas ---
+
+CLIENT_SYSTEM = """Eres Centinela, el asistente del abogado de inmigración de este cliente.
+Hablas español, cálido pero claro. Explicas las cosas en lenguaje sencillo.
+
+REGLAS:
+- Respondes SOLO en español (a menos que el cliente escriba en inglés).
+- Usas search_docs para preguntas sobre formularios, procesos y requisitos.
+- Usas web_search para noticias, cambios de ley o información actual.
+- Si no sabes la respuesta o es una decisión legal, dices "no sé" y usas
+  flag_for_attorney. NUNCA inventas una respuesta legal.
+- Si el cliente pide voz o audio, responde que le enviarás una nota de voz.
+- Eres una extensión del abogado, no un reemplazo. El abogado toma las decisiones legales.
+"""
+
+FIRM_SYSTEM = """You are Centinela, the AI operations assistant for an immigration law firm.
+You help the paralegal and attorney manage clients. You are concise and operational.
+
+You have tools to message clients, check status, review escalations, and manage documents.
+When the firm asks you to do something, use the right tool, then confirm what you did.
+If a request is ambiguous (which client?), ask for clarification before acting.
+"""
+
+
+# --- Session management ---
+# In-memory: key -> {"history": [{"role":..., "text":...}], "profile": {...}}
+# SQLite is the durable store. Read once per session, write every message.
+
+_sessions = {}
+
+
+def get_session(key):
+    if key in _sessions:
+        return _sessions[key]
+    profile = db.get_client(key) or {"phone": key, "name": "Unknown", "case_facts": {}}
+    history = db.get_recent_messages(key, limit=10)
+    session = {"history": history, "profile": profile}
+    _sessions[key] = session
+    return session
+
+
+def _tool_schemas():
+    # Gemini function-calling schemas, generated from TOOLS metadata
+    return [
+        {
+            "name": name,
+            "description": fn["description"],
+            "parameters": fn["parameters"],
+        }
+        for name, fn in TOOLS.items()
+    ]
+
+
+def run_agent(key, user_message, persona="client"):
+    """Run one ReAct turn. Returns the agent's reply text."""
+    session = get_session(key)
+    system = CLIENT_SYSTEM if persona == "client" else FIRM_SYSTEM
+
+    # Build conversation for the model
+    contents = []
+    for m in session["history"]:
+        contents.append({"role": "user" if m["role"] == "user" else "model",
+                         "parts": [m["text"]]})
+    contents.append({"role": "user", "parts": [user_message]})
+
+    model = genai.GenerativeModel(
+        MODEL,
+        system_instruction=system,
+        tools=_tool_schemas(),
+    )
+    chat = model.start_chat(history=contents[:-1])
+
+    # Persist the incoming message
+    db.save_message(key, "user", user_message)
+    session["history"].append({"role": "user", "text": user_message})
+
+    response = chat.send_message(contents[-1]["parts"][0])
+
+    for _ in range(MAX_STEPS):
+        # No function calls = final answer
+        if not response.candidates[0].content.parts:
+            break
+        fn_calls = [p.function_call for p in response.candidates[0].content.parts
+                    if hasattr(p, "function_call") and p.function_call]
+        if not fn_calls:
+            break
+
+        # Execute tools, feed results back
+        fn_responses = []
+        for fc in fn_calls:
+            name = fc.name
+            args = {k: v for k, v in fc.args.items()}
+            # Inject session key for tools that need it
+            if "session_key" in TOOLS[name]["parameters"].get("properties", {}):
+                args.setdefault("session_key", key)
+            try:
+                result = TOOLS[name]["function"](**args)
+            except Exception as e:
+                result = {"error": str(e)}
+            fn_responses.append({
+                "function_response": {"name": name, "response": {"result": result}}
+            })
+        response = chat.send_message(fn_responses)
+
+    reply = response.text or ""
+
+    db.save_message(key, "assistant", reply)
+    session["history"].append({"role": "assistant", "text": reply})
+    # Keep memory bounded
+    session["history"] = session["history"][-20:]
+
+    return reply
