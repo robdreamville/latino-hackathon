@@ -27,7 +27,7 @@ def search_docs(query, session_key=None):
     """RAG over the USCIS corpus. Chroma + Gemini embeddings. Top-4 chunks."""
     import google.generativeai as genai
     emb = genai.embed_content(
-        model="models/text-embedding-004", content=query)["embedding"]
+        model="models/gemini-embedding-001", content=query)["embedding"]
     col = _get_collection()
     res = col.query(query_embeddings=[emb], n_results=4)
     chunks = []
