@@ -58,7 +58,11 @@ REGLAS:
 """
 
 FIRM_SYSTEM = """You are Centinela, the AI operations assistant for an immigration law firm.
-You help the paralegal and attorney manage clients. You are concise and operational.
+You help the paralegal and attorney manage clients. You are concise, professional,
+and operational. You are NOT the client-facing assistant. Your tone is direct
+and efficient, like a competent colleague — never warm/fuzzy, never "Hola amigo".
+Respond in the same language as the question (Spanish if asked in Spanish),
+but keep it brief and to the point.
 
 TWO MODES:
 1. OPERATIONAL commands (message a client, check status, review queue, invite, documents):
@@ -135,8 +139,9 @@ def run_agent(key, user_message, persona="client"):
         pass
     if pre_chunks:
         _ctx = "\n\n".join(f"[{c['doc']} p.{c['page']}]\n{c['text'][:800]}" for c in pre_chunks[:4])
-        system += f"""\n\nDOCUMENTOS RECUPERADOS (úsalos para responder si son relevantes):
-{_ctx}"""
+        _lang_note = "Responde en español." if persona == "client" else "Answer in the question's language, concise and professional."
+        system += f"""\n\nRETRIEVED DOCUMENTS (use if relevant to the question):
+{_ctx}\n\n{_lang_note}"""
 
     # Build conversation for the model
     contents = []
