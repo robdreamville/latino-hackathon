@@ -108,7 +108,13 @@ def send_invite(phone, client_name, attorney_name, session_key=None):
 def _resolve_phone(name_or_phone):
     if name_or_phone.startswith("+"):
         return name_or_phone
-    # TODO: look up by name in clients table
+    # Look up by name: case-insensitive partial match
+    from db import get_all_clients
+    query = name_or_phone.strip().lower()
+    for c in get_all_clients():
+        if query in c["name"].lower() or c["name"].lower() in query:
+            return c["phone"]
+    # No match — return as-is, downstream will report not found
     return name_or_phone
 
 
@@ -134,6 +140,8 @@ def get_review_queue(session_key=None):
 def get_client_status(name_or_phone, session_key=None):
     phone = _resolve_phone(name_or_phone)
     client = db.get_client(phone)
+    if not client:
+        return {"client": None, "error": f"No client found for '{name_or_phone}'."}
     recent = db.get_recent_messages(phone, limit=5)
     return {"client": client, "recent_messages": recent}
 
