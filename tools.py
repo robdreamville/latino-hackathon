@@ -231,6 +231,11 @@ TOOLS = {
         "parameters": _schema({"name_or_phone": STR}, ["name_or_phone"]),
         "function": get_client_status,
     },
+    "list_all_clients": {
+        "description": "List all clients with name, phone, case type, and attorney. Use when asked 'what clients do I have' or similar.",
+        "parameters": _schema({}, []),
+        "function": list_all_clients,
+    },
     "request_documents": {
         "description": "Ask a client for documents via WhatsApp. Creates a checklist.",
         "parameters": _schema({"name_or_phone": STR, "doc_list": STR}, ["name_or_phone", "doc_list"]),
@@ -247,3 +252,14 @@ TOOLS = {
         "function": get_document_package,
     },
 }
+
+
+def list_all_clients():
+    """List all clients with basic info. No arguments needed."""
+    from db import get_all_clients
+    clients = get_all_clients()
+    if not clients:
+        return {"clients": [], "message": "No clients found."}
+    summary = [{"name": c["name"], "phone": c["phone"], "case_type": c["case_type"],
+                "attorney": c["attorney"]} for c in clients]
+    return {"clients": summary, "count": len(summary)}
