@@ -16,8 +16,10 @@ def init_db():
         CREATE TABLE IF NOT EXISTS clients (
             phone TEXT PRIMARY KEY,
             name TEXT,
+            age INTEGER,
             attorney TEXT,
             case_type TEXT,
+            benefit_sought TEXT,
             language TEXT DEFAULT 'es',
             case_facts TEXT DEFAULT '{}',
             created_at TEXT
@@ -71,20 +73,23 @@ def get_client(phone):
     return None
 
 
-def upsert_client(phone, name=None, attorney=None, case_type=None, case_facts=None):
+def upsert_client(phone, name=None, age=None, attorney=None, case_type=None,
+                benefit_sought=None, case_facts=None):
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     existing = get_client(phone)
     facts = json.dumps(case_facts or (existing["case_facts"] if existing else {}))
     c.execute("""
-        INSERT INTO clients (phone, name, attorney, case_type, case_facts, created_at)
-        VALUES (?, ?, ?, ?, ?, ?)
+        INSERT INTO clients (phone, name, age, attorney, case_type, benefit_sought, case_facts, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(phone) DO UPDATE SET
             name=COALESCE(excluded.name, clients.name),
+            age=COALESCE(excluded.age, clients.age),
             attorney=COALESCE(excluded.attorney, clients.attorney),
             case_type=COALESCE(excluded.case_type, clients.case_type),
+            benefit_sought=COALESCE(excluded.benefit_sought, clients.benefit_sought),
             case_facts=excluded.case_facts
-    """, (phone, name, attorney, case_type, facts, datetime.now().isoformat()))
+    """, (phone, name, age, attorney, case_type, benefit_sought, facts, datetime.now().isoformat()))
     conn.commit()
     conn.close()
 
