@@ -60,8 +60,7 @@ async def accept_invite(token: str):
 # --- Dashboard reads (Base44) ---
 @app.get("/api/clients")
 async def list_clients():
-    # TODO: return all clients
-    return {"clients": []}
+    return {"clients": db.get_all_clients()}
 
 
 @app.get("/api/review-queue")
@@ -71,8 +70,7 @@ async def review_queue():
 
 @app.get("/api/documents")
 async def documents():
-    # TODO: return document packages
-    return {"packages": []}
+    return {"packages": db.get_all_documents()}
 
 
 @app.post("/api/invite")
