@@ -10,6 +10,9 @@ import google.generativeai as genai
 import db
 from tools import TOOLS
 
+from dotenv import load_dotenv
+load_dotenv()
+
 MODEL = "gemini-2.5-flash"
 MAX_STEPS = 6
 
