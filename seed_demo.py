@@ -57,4 +57,24 @@ upsert_client(
     },
 )
 
+# Sample review queue items with client attribution
+from db import flag_for_review
+
+flag_for_review(
+    phone="+15551113333",
+    question="¿Califico para el permiso de trabajo si mi asilo lleva 200 días pendiente?",
+    context="Legal judgment: eligibility question. Needs attorney review.",
+)
+flag_for_review(
+    phone="+15551112222",
+    question="¿Debería renovar mi permiso ahora o esperar a que se venza?",
+    context="Legal judgment: timing/strategy question. Needs attorney review.",
+)
+flag_for_review(
+    phone="+15551114444",
+    question="Mi jefe me pidió un documento que no tengo. ¿Qué hago?",
+    context="Unclear request, needs paralegal follow-up.",
+)
+
 print("Demo clients seeded: Lucía, María, José")
+print("Review queue seeded: 3 items")
