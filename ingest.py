@@ -48,7 +48,7 @@ def main():
                     continue
                 for j, ch in enumerate(chunk(text)):
                     emb = genai.embed_content(
-                        model="models/text-embedding-004", content=ch)["embedding"]
+                        model="models/gemini-embedding-001", content=ch)["embedding"]
                     col.add(
                         ids=[f"{pdf_file}-p{i}-c{j}"],
                         embeddings=[emb],
