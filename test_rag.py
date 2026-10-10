@@ -1,6 +1,8 @@
 # test_rag.py — full RAG loop: retrieve -> generate -> sources + answer
 # Run: python test_rag.py "tu pregunta aquí"
 import os, sys, warnings
+from dotenv import load_dotenv
+load_dotenv()
 warnings.filterwarnings("ignore")
 
 import google.generativeai as genai
