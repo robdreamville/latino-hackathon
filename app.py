@@ -83,6 +83,116 @@ async def invite(request: Request):
     return result
 
 
+
+
+# --- Carpeta integration: document classifier ---
+@app.post("/api/classify")
+async def classify(request: Request):
+    """Classify a document image. Called by Carpeta backend first, falls back to InvokeLLM."""
+    import warnings
+    warnings.filterwarnings("ignore")
+    import google.generativeai as genai
+    import urllib.request
+
+    data = await request.json()
+    file_url = data.get("file_url", "")
+    doc_types = data.get("doc_types", [])
+
+    # Download image
+    try:
+        with urllib.request.urlopen(file_url, timeout=15) as resp:
+            img_data = resp.read()
+    except Exception as e:
+        return {"classified_as": "unknown", "confidence": 0.0,
+                "quality_flags": ["download_failed"],
+                "name_on_document": None, "document_date": None}
+
+    # Classify with Gemini vision
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    type_list = ", ".join(doc_types)
+    prompt = f"""Classify this document image into ONE of these types: {type_list}.
+If it doesn't match any, say "unknown".
+
+Also report:
+- quality_flags: list any of ["blurry", "cropped", "glare"] that apply, or empty list
+- name_on_document: the person's name visible on the document, or null
+- document_date: the document date as YYYY-MM-DD, or null
+
+Respond in JSON only: {{"classified_as": "...", "confidence": 0.0-1.0, "quality_flags": [...], "name_on_document": "...", "document_date": "..."}}"""
+
+    try:
+        resp = model.generate_content([
+            prompt,
+            {"mime_type": "image/jpeg", "data": img_data}
+        ])
+        import json as _json
+        # Strip markdown fences if present
+        text = resp.text.strip()
+        if text.startswith("```"):
+            text = text.split("\n", 1)[1].rsplit("```", 1)[0]
+        result = _json.loads(text)
+        return {
+            "classified_as": result.get("classified_as", "unknown"),
+            "confidence": float(result.get("confidence", 0.0)),
+            "quality_flags": result.get("quality_flags", []),
+            "name_on_document": result.get("name_on_document"),
+            "document_date": result.get("document_date"),
+        }
+    except Exception as e:
+        return {"classified_as": "unknown", "confidence": 0.0,
+                "quality_flags": ["classification_failed"],
+                "name_on_document": None, "document_date": None}
+
+
+# --- Carpeta integration: gated Q&A ---
+@app.post("/api/ask")
+async def ask(request: Request):
+    """Answer informational questions from RAG. Returns legal_judgment flag for legal calls."""
+    import warnings
+    warnings.filterwarnings("ignore")
+    import google.generativeai as genai
+    from tools import search_docs
+
+    data = await request.json()
+    question = data.get("question", "")
+
+    # Step 1: check if this is a legal judgment call
+    judge_model = genai.GenerativeModel("gemini-2.5-flash")
+    judge_prompt = f"""Is this question asking for legal advice about eligibility, timing, strategy, or whether someone qualifies for an immigration benefit?
+
+Question: {question}
+
+Answer ONLY "yes" or "no"."""
+    judge_resp = judge_model.generate_content(judge_prompt)
+    if "yes" in judge_resp.text.strip().lower():
+        return {"legal_judgment": True}
+
+    # Step 2: RAG lookup
+    rag = search_docs(question)
+    chunks = rag.get("chunks", [])
+    if not chunks:
+        return {"legal_judgment": True}  # Can't answer from docs = escalate
+
+    # Step 3: generate short Spanish answer
+    context = "\n\n".join(f"[{c['doc']} p.{c['page']}]\n{c['text']}" for c in chunks)
+    prompt = f"""Responde en español, de forma natural y breve (menos de 80 palabras).
+Usa SOLO esta información. No des consejos sobre elegibilidad, tiempos o estrategia.
+Si no puedes responder con esta información, di "No tengo esa información".
+
+Documentos:
+{context}
+
+Pregunta: {question}
+
+Respuesta:"""
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    resp = model.generate_content(prompt)
+
+    sources = [{"title": c["doc"], "url": "https://www.uscis.gov/", "page": str(c["page"])}
+               for c in chunks[:3]]
+
+    return {"answer": resp.text.strip(), "sources": sources}
+
 @app.get("/health")
 async def health():
     return {"ok": True}
