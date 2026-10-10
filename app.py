@@ -158,7 +158,18 @@ async def ask(request: Request):
 
     # Step 1: check if this is a legal judgment call
     judge_model = genai.GenerativeModel("gemini-2.5-flash")
-    judge_prompt = f"""Is this question asking for legal advice about eligibility, timing, strategy, or whether someone qualifies for an immigration benefit?
+    judge_prompt = f"""Decide if this question needs a LAWYER or just FACTS.
+
+Answer "yes" (needs lawyer) ONLY if the question asks:
+- Whether THEY qualify or are eligible for a benefit ("¿califico?", "¿puedo aplicar?")
+- What THEY should do strategically ("¿debería...?", "¿me conviene...?")
+- How long THEIR case will take or timing advice
+
+Answer "no" (just facts) if the question asks:
+- What documents or forms are needed (general requirements)
+- What a form is or how the process works in general
+- Where to get a document or how to fill something out
+- General information anyone could look up
 
 Question: {question}
 
