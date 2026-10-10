@@ -1,0 +1,29 @@
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data (local only, never commit)
+chroma_db/
+centinela.db
+*.db
+corpus/
+*.mp3
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
