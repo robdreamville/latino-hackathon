@@ -173,6 +173,17 @@ def get_document_package(name_or_phone, session_key=None):
     return {"phone": phone, "documents": []}
 
 
+def list_all_clients():
+    """List all clients with basic info. No arguments needed."""
+    from db import get_all_clients
+    clients = get_all_clients()
+    if not clients:
+        return {"clients": [], "message": "No clients found."}
+    summary = [{"name": c["name"], "phone": c["phone"], "case_type": c["case_type"],
+                "attorney": c["attorney"]} for c in clients]
+    return {"clients": summary, "count": len(summary)}
+
+
 # ---------------------------------------------------------------------------
 # Registry
 # ---------------------------------------------------------------------------
@@ -260,14 +271,3 @@ TOOLS = {
         "function": get_document_package,
     },
 }
-
-
-def list_all_clients():
-    """List all clients with basic info. No arguments needed."""
-    from db import get_all_clients
-    clients = get_all_clients()
-    if not clients:
-        return {"clients": [], "message": "No clients found."}
-    summary = [{"name": c["name"], "phone": c["phone"], "case_type": c["case_type"],
-                "attorney": c["attorney"]} for c in clients]
-    return {"clients": summary, "count": len(summary)}
