@@ -124,6 +124,20 @@ def run_agent(key, user_message, persona="client"):
     session = get_session(key)
     system = CLIENT_SYSTEM if persona == "client" else FIRM_SYSTEM
 
+    # MANDATORY pre-retrieval: the model cannot skip this.
+    # We search BEFORE the loop so the docs are in context no matter what.
+    pre_chunks = []
+    try:
+        from tools import search_docs as _sd
+        _r = _sd(user_message)
+        pre_chunks = _r.get("chunks", [])
+    except Exception:
+        pass
+    if pre_chunks:
+        _ctx = "\n\n".join(f"[{c['doc']} p.{c['page']}]\n{c['text'][:800]}" for c in pre_chunks[:4])
+        system += f"""\n\nDOCUMENTOS RECUPERADOS (úsalos para responder si son relevantes):
+{_ctx}"""
+
     # Build conversation for the model
     contents = []
     for m in session["history"]:
