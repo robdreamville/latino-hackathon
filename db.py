@@ -133,7 +133,11 @@ def get_review_queue():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
-    c.execute("SELECT * FROM review_queue WHERE status = 'pending' ORDER BY created_at DESC")
+    c.execute("""
+        SELECT q.*, c.name as client_name FROM review_queue q
+        LEFT JOIN clients c ON q.phone = c.phone
+        WHERE q.status = 'pending' ORDER BY q.created_at DESC
+    """)
     rows = [dict(r) for r in c.fetchall()]
     conn.close()
     return rows
