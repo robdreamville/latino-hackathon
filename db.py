@@ -1,1 +1,134 @@
-IyBkYi5weSDigJQgU1FMaXRlIHBlcnNpc3RlbmNlIGZvciBDZW50aW5lbGEKIyBUd28gdGFibGVzOiBjbGllbnRzIChwcm9maWxlICsgY2FzZSBmYWN0cyBhcyBKU09OKSwgbWVzc2FnZXMgKGZ1bGwgaGlzdG9yeSkKIyBQYXR0ZXJuOiByZWFkIG9uY2UgcGVyIHNlc3Npb24sIHdyaXRlLXRocm91Z2ggb24gZXZlcnkgbWVzc2FnZS4KCmltcG9ydCBqc29uCmltcG9ydCBzcWxpdGUzCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgpEQl9QQVRIID0gImNlbnRpbmVsYS5kYiIKCgpkZWYgaW5pdF9kYigpOgogICAgY29ubiA9IHNxbGl0ZTMuY29ubmVjdChEQl9QQVRIKQogICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgIGMuZXhlY3V0ZSgiIiIKICAgICAgICBDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBjbGllbnRzICgKICAgICAgICAgICAgcGhvbmUgVEVYVCBQUklNQVJZIEtFWSwKICAgICAgICAgICAgbmFtZSBURVhULAogICAgICAgICAgICBhdHRvcm5leSBURVhULAogICAgICAgICAgICBjYXNlX3R5cGUgVEVYVCwKICAgICAgICAgICAgbGFuZ3VhZ2UgVEVYVCBERUZBVUxUICdlcycsCiAgICAgICAgICAgIGNhc2VfZmFjdHMgVEVYVCBERUZBVUxUICd7fScsCiAgICAgICAgICAgIGNyZWF0ZWRfYXQgVEVYVAogICAgICAgICkKICAgICIiIikKICAgIGMuZXhlY3V0ZSgiIiIKICAgICAgICBDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBtZXNzYWdlcyAoCiAgICAgICAgICAgIGlkIElOVEVHRVIgUFJJTUFSWSBLRVkgQVVUT0lOQ1JFTUVOVCwKICAgICAgICAgICAgcGhvbmUgVEVYVCwKICAgICAgICAgICAgcm9sZSBURVhULAogICAgICAgICAgICB0ZXh0IFRFWFQsCiAgICAgICAgICAgIHRpbWVzdGFtcCBURVhULAogICAgICAgICAgICBGT1JFSUdOIEtFWSAocGhvbmUpIFJFRkVSRU5DRVMgY2xpZW50cyAocGhvbmUpCiAgICAgICAgKQogICAgIiIiKQogICAgYy5leGVjdXRlKCIiIgogICAgICAgIENSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIHJldmlld19xdWV1ZSAoCiAgICAgICAgICAgIGlkIElOVEVHRVIgUFJJTUFSWSBLRVkgQVVUT0lOQ1JFTUVOVCwKICAgICAgICAgICAgcGhvbmUgVEVYVCwKICAgICAgICAgICAgcXVlc3Rpb24gVEVYVCwKICAgICAgICAgICAgY29udGV4dCBURVhULAogICAgICAgICAgICBzdGF0dXMgVEVYVCBERUZBVUxUICdwZW5kaW5nJywKICAgICAgICAgICAgY3JlYXRlZF9hdCBURVhUCiAgICAgICAgKQogICAgIiIiKQogICAgYy5leGVjdXRlKCIiIgogICAgICAgIENSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIGRvY3VtZW50cyAoCiAgICAgICAgICAgIGlkIElOVEVHRVIgUFJJTUFSWSBLRVkgQVVUT0lOQ1JFTUVOVCwKICAgICAgICAgICAgcGhvbmUgVEVYVCwKICAgICAgICAgICAgZG9jX3R5cGUgVEVYVCwKICAgICAgICAgICAgZmlsZV9wYXRoIFRFWFQsCiAgICAgICAgICAgIHN0YXR1cyBURVhUIERFRkFVTFQgJ3JlY2VpdmVkJywKICAgICAgICAgICAgY3JlYXRlZF9hdCBURVhUCiAgICAgICAgKQogICAgIiIiKQogICAgY29ubi5jb21taXQoKQogICAgY29ubi5jbG9zZSgpCgoKZGVmIGdldF9jbGllbnQocGhvbmUpOgogICAgY29ubiA9IHNxbGl0ZTMuY29ubmVjdChEQl9QQVRIKQogICAgY29ubi5yb3dfZmFjdG9yeSA9IHNxbGl0ZTMuUm93CiAgICBjID0gY29ubi5jdXJzb3IoKQogICAgYy5leGVjdXRlKCJTRUxFQ1QgKiBGUk9NIGNsaWVudHMgV0hFUkUgcGhvbmUgPSA/IiwgKHBob25lLCkpCiAgICByb3cgPSBjLmZldGNob25lKCkKICAgIGNvbm4uY2xvc2UoKQogICAgaWYgcm93OgogICAgICAgIGQgPSBkaWN0KHJvdykKICAgICAgICBkWyJjYXNlX2ZhY3RzIl0gPSBqc29uLmxvYWRzKGRbImNhc2VfZmFjdHMiXSBvciAie30iKQogICAgICAgIHJldHVybiBkCiAgICByZXR1cm4gTm9uZQoKCmRlZiB1cHNlcnRfY2xpZW50KHBob25lLCBuYW1lPU5vbmUsIGF0dG9ybmV5PU5vbmUsIGNhc2VfdHlwZT1Ob25lLCBjYXNlX2ZhY3RzPU5vbmUpOgogICAgY29ubiA9IHNxbGl0ZTMuY29ubmVjdChEQl9QQVRIKQogICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgIGV4aXN0aW5nID0gZ2V0X2NsaWVudChwaG9uZSkKICAgIGZhY3RzID0ganNvbi5kdW1wcyhjYXNlX2ZhY3RzIG9yIChleGlzdGluZ1siY2FzZV9mYWN0cyJdIGlmIGV4aXN0aW5nIGVsc2Uge30pKQogICAgYy5leGVjdXRlKCIiIgogICAgICAgIElOU0VSVCBJTlRPIGNsaWVudHMgKHBob25lLCBuYW1lLCBhdHRvcm5leSwgY2FzZV90eXBlLCBjYXNlX2ZhY3RzLCBjcmVhdGVkX2F0KQogICAgICAgIFZBTFVFUyAoPywgPywgPywgPywgPywgPykKICAgICAgICBPTiBDT05GTElDVChwaG9uZSkgRE8gVVBEQVRFIFNFVAogICAgICAgICAgICBuYW1lPUNPQUxFU0NFKGV4Y2x1ZGVkLm5hbWUsIGNsaWVudHMubmFtZSksCiAgICAgICAgICAgIGF0dG9ybmV5PUNPQUxFU0NFKGV4Y2x1ZGVkLmF0dG9ybmV5LCBjbGllbnRzLmF0dG9ybmV5KSwKICAgICAgICAgICAgY2FzZV90eXBlPUNPQUxFU0NFKGV4Y2x1ZGVkLmNhc2VfdHlwZSwgY2xpZW50cy5jYXNlX3R5cGUpLAogICAgICAgICAgICBjYXNlX2ZhY3RzPWV4Y2x1ZGVkLmNhc2VfZmFjdHMKICAgICIiIiwgKHBob25lLCBuYW1lLCBhdHRvcm5leSwgY2FzZV90eXBlLCBmYWN0cywgZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCkpKQogICAgY29ubi5jb21taXQoKQogICAgY29ubi5jbG9zZSgpCgoKZGVmIHNhdmVfbWVzc2FnZShwaG9uZSwgcm9sZSwgdGV4dCk6CiAgICBjb25uID0gc3FsaXRlMy5jb25uZWN0KERCX1BBVEgpCiAgICBjID0gY29ubi5jdXJzb3IoKQogICAgYy5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyBtZXNzYWdlcyAocGhvbmUsIHJvbGUsIHRleHQsIHRpbWVzdGFtcCkgVkFMVUVTICg/LCA/LCA/LCA/KSIsCiAgICAgICAgKHBob25lLCByb2xlLCB0ZXh0LCBkYXRldGltZS5ub3coKS5pc29mb3JtYXQoKSksCiAgICApCiAgICBjb25uLmNvbW1pdCgpCiAgICBjb25uLmNsb3NlKCkKCgpkZWYgZ2V0X3JlY2VudF9tZXNzYWdlcyhwaG9uZSwgbGltaXQ9MTApOgogICAgY29ubiA9IHNxbGl0ZTMuY29ubmVjdChEQl9QQVRIKQogICAgY29ubi5yb3dfZmFjdG9yeSA9IHNxbGl0ZTMuUm93CiAgICBjID0gY29ubi5jdXJzb3IoKQogICAgYy5leGVjdXRlKAogICAgICAgICJTRUxFQ1Qgcm9sZSwgdGV4dCBGUk9NIG1lc3NhZ2VzIFdIRVJFIHBob25lID0gPyBPUkRFUiBCWSBpZCBERVNDIExJTUlUID8iLAogICAgICAgIChwaG9uZSwgbGltaXQpLAogICAgKQogICAgcm93cyA9IFtkaWN0KHIpIGZvciByIGluIGMuZmV0Y2hhbGwoKV0KICAgIGNvbm4uY2xvc2UoKQogICAgcmV0dXJuIGxpc3QocmV2ZXJzZWQocm93cykpCgoKZGVmIGZsYWdfZm9yX3JldmlldyhwaG9uZSwgcXVlc3Rpb24sIGNvbnRleHQ9IiIpOgogICAgY29ubiA9IHNxbGl0ZTMuY29ubmVjdChEQl9QQVRIKQogICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgIGMuZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8gcmV2aWV3X3F1ZXVlIChwaG9uZSwgcXVlc3Rpb24sIGNvbnRleHQsIGNyZWF0ZWRfYXQpIFZBTFVFUyAoPywgPywgPywgPykiLAogICAgICAgIChwaG9uZSwgcXVlc3Rpb24sIGNvbnRleHQsIGRhdGV0aW1lLm5vdygpLmlzb2Zvcm1hdCgpKSwKICAgICkKICAgIGNvbm4uY29tbWl0KCkKICAgIGNvbm4uY2xvc2UoKQoKCmRlZiBnZXRfcmV2aWV3X3F1ZXVlKCk6CiAgICBjb25uID0gc3FsaXRlMy5jb25uZWN0KERCX1BBVEgpCiAgICBjb25uLnJvd19mYWN0b3J5ID0gc3FsaXRlMy5Sb3cKICAgIGMgPSBjb25uLmN1cnNvcigpCiAgICBjLmV4ZWN1dGUoIlNFTEVDVCAqIEZST00gcmV2aWV3X3F1ZXVlIFdIRVJFIHN0YXR1cyA9ICdwZW5kaW5nJyBPUkRFUiBCWSBjcmVhdGVkX2F0IERFU0MiKQogICAgcm93cyA9IFtkaWN0KHIpIGZvciByIGluIGMuZmV0Y2hhbGwoKV0KICAgIGNvbm4uY2xvc2UoKQogICAgcmV0dXJuIHJvd3MK
+# db.py — SQLite persistence for Centinela
+# Two tables: clients (profile + case facts as JSON), messages (full history)
+# Pattern: read once per session, write-through on every message.
+
+import json
+import sqlite3
+from datetime import datetime
+
+DB_PATH = "centinela.db"
+
+
+def init_db():
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS clients (
+            phone TEXT PRIMARY KEY,
+            name TEXT,
+            attorney TEXT,
+            case_type TEXT,
+            language TEXT DEFAULT 'es',
+            case_facts TEXT DEFAULT '{}',
+            created_at TEXT
+        )
+    """)
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS messages (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            phone TEXT,
+            role TEXT,
+            text TEXT,
+            timestamp TEXT,
+            FOREIGN KEY (phone) REFERENCES clients (phone)
+        )
+    """)
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS review_queue (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            phone TEXT,
+            question TEXT,
+            context TEXT,
+            status TEXT DEFAULT 'pending',
+            created_at TEXT
+        )
+    """)
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS documents (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            phone TEXT,
+            doc_type TEXT,
+            file_path TEXT,
+            status TEXT DEFAULT 'received',
+            created_at TEXT
+        )
+    """)
+    conn.commit()
+    conn.close()
+
+
+def get_client(phone):
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+    c.execute("SELECT * FROM clients WHERE phone = ?", (phone,))
+    row = c.fetchone()
+    conn.close()
+    if row:
+        d = dict(row)
+        d["case_facts"] = json.loads(d["case_facts"] or "{}")
+        return d
+    return None
+
+
+def upsert_client(phone, name=None, attorney=None, case_type=None, case_facts=None):
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    existing = get_client(phone)
+    facts = json.dumps(case_facts or (existing["case_facts"] if existing else {}))
+    c.execute("""
+        INSERT INTO clients (phone, name, attorney, case_type, case_facts, created_at)
+        VALUES (?, ?, ?, ?, ?, ?)
+        ON CONFLICT(phone) DO UPDATE SET
+            name=COALESCE(excluded.name, clients.name),
+            attorney=COALESCE(excluded.attorney, clients.attorney),
+            case_type=COALESCE(excluded.case_type, clients.case_type),
+            case_facts=excluded.case_facts
+    """, (phone, name, attorney, case_type, facts, datetime.now().isoformat()))
+    conn.commit()
+    conn.close()
+
+
+def save_message(phone, role, text):
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    c.execute(
+        "INSERT INTO messages (phone, role, text, timestamp) VALUES (?, ?, ?, ?)",
+        (phone, role, text, datetime.now().isoformat()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def get_recent_messages(phone, limit=10):
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+    c.execute(
+        "SELECT role, text FROM messages WHERE phone = ? ORDER BY id DESC LIMIT ?",
+        (phone, limit),
+    )
+    rows = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return list(reversed(rows))
+
+
+def flag_for_review(phone, question, context=""):
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    c.execute(
+        "INSERT INTO review_queue (phone, question, context, created_at) VALUES (?, ?, ?, ?)",
+        (phone, question, context, datetime.now().isoformat()),
+    )
+    conn.commit()
+    conn.close()
+
+
+def get_review_queue():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+    c.execute("SELECT * FROM review_queue WHERE status = 'pending' ORDER BY created_at DESC")
+    rows = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return rows
