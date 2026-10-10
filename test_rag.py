@@ -1,6 +1,8 @@
 # test_rag.py — full RAG loop: retrieve -> generate -> sources + answer
 # Run: python test_rag.py "tu pregunta aquí"
-import os, sys
+import os, sys, warnings
+warnings.filterwarnings("ignore")
+
 import google.generativeai as genai
 from tools import search_docs
 
@@ -16,15 +18,17 @@ if not chunks:
     print("No se encontraron documentos relevantes.")
     sys.exit(0)
 
-# Sources
 print("=== Fuentes ===")
 for c in chunks:
     print(f"  - {c['doc']} (pág. {c['page']})")
 print()
 
-# Generate answer from chunks
 context = "\n\n".join(f"[{c['doc']} p.{c['page']}]\n{c['text']}" for c in chunks)
-prompt = f"""Responde en español usando SOLO la información de estos documentos.
+prompt = f"""Eres un asistente amable explicándole esto a un amigo en español.
+Escribe de forma natural y conversacional, en párrafos fluidos.
+NO uses formato markdown, ni asteriscos, ni listas con viñetas, ni negritas.
+Si hay varios puntos, intégralos en el texto de forma natural.
+Usa SOLO la información de estos documentos.
 Si los documentos no contienen la respuesta, di que no lo sabes.
 
 Documentos:
