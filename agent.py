@@ -60,15 +60,29 @@ def get_session(key):
 
 
 def _tool_schemas():
-    # Gemini function-calling schemas, generated from TOOLS metadata
-    return [
-        {
-            "name": name,
-            "description": fn["description"],
-            "parameters": fn["parameters"],
-        }
-        for name, fn in TOOLS.items()
-    ]
+    # Gemini function-calling schemas, generated from TOOLS metadata.
+    # Must be wrapped as {"function_declarations": [...]} per the API.
+    return [{
+        "function_declarations": [
+            {
+                "name": name,
+                "description": fn["description"],
+                "parameters": fn["parameters"],
+            }
+            for name, fn in TOOLS.items()
+        ]
+    }]
+
+
+def _proto_to_dict(proto_map):
+    """Convert protobuf Struct/MapComposite to plain Python dict."""
+    from google.protobuf.json_format import MessageToDict
+    # fc.args is a MapComposite; wrap in a Struct for conversion
+    from google.protobuf.struct_pb2 import Struct
+    s = Struct()
+    for k, v in proto_map.items():
+        s[k] = v
+    return MessageToDict(s)
 
 
 def run_agent(key, user_message, persona="client"):
@@ -109,7 +123,7 @@ def run_agent(key, user_message, persona="client"):
         fn_responses = []
         for fc in fn_calls:
             name = fc.name
-            args = {k: v for k, v in fc.args.items()}
+            args = _proto_to_dict(fc.args)
             # Inject session key for tools that need it
             if "session_key" in TOOLS[name]["parameters"].get("properties", {}):
                 args.setdefault("session_key", key)
