@@ -1,1 +1,85 @@
-IyBhcHAucHkg4oCUIENlbnRpbmVsYSBGYXN0QVBJIHNlcnZlcgojIFR3byBjaGF0IGRvb3JzIChXaGF0c0FwcCArIEJhc2U0NCksIGRhc2hib2FyZCByZWFkcywgaW52aXRlIGFjY2VwdC4KIyBSdW46IHV2aWNvcm4gYXBwOmFwcCAtLXBvcnQgODAwMAoKaW1wb3J0IG9zCgpmcm9tIGZhc3RhcGkgaW1wb3J0IEZhc3RBUEksIEZvcm0sIFJlcXVlc3QKZnJvbSBmYXN0YXBpLnJlc3BvbnNlcyBpbXBvcnQgSlNPTlJlc3BvbnNlCgppbXBvcnQgZGIKZnJvbSBhZ2VudCBpbXBvcnQgcnVuX2FnZW50CgphcHAgPSBGYXN0QVBJKHRpdGxlPSJDZW50aW5lbGEiKQoKR1JFRVRJTkcgPSAoCiAgICAiSG9sYSB7bmFtZX0sIHNveSBDZW50aW5lbGEsIGVsIGFzaXN0ZW50ZSBkZSB0dSBhYm9nYWRvIHthdHRvcm5leX0uICIKICAgICJFc3RveSBhcXXDrSBwYXJhIHJlc3BvbmRlciB0dXMgcHJlZ3VudGFzIGRlIGlubWlncmFjacOzbiBlbiBlc3Bhw7FvbCwgIgogICAgImF5dWRhcnRlIGNvbiB0dXMgZG9jdW1lbnRvcyB5IG1hbnRlbmVydGUgYWwgZMOtYSBjb24gdHUgY2Fzby4gIgogICAgIlR1IGluZm9ybWFjacOzbiBlcyBwcml2YWRhOiBzb2xvIHTDuiB5IHR1IGFib2dhZG8gcHVlZGVuIHZlciBlc3RhIGNvbnZlcnNhY2nDs24uICIKICAgICLCv0VuIHF1w6kgdGUgcHVlZG8gYXl1ZGFyIGhveT8iCikKCgpAYXBwLm9uX2V2ZW50KCJzdGFydHVwIikKZGVmIHN0YXJ0dXAoKToKICAgIGRiLmluaXRfZGIoKQoKCiMgLS0tIERvb3IgMTogV2hhdHNBcHAgKFR3aWxpbyB3ZWJob29rKSAtLS0KQGFwcC5wb3N0KCIvd2ViaG9vay93aGF0c2FwcCIpCmFzeW5jIGRlZiB3aGF0c2FwcF93ZWJob29rKEZyb206IHN0ciA9IEZvcm0oLi4uKSwgQm9keTogc3RyID0gRm9ybSguLi4pLAogICAgICAgICAgICAgICAgICAgICAgICAgICBOdW1NZWRpYTogaW50ID0gRm9ybSgwKSk6CiAgICBwaG9uZSA9IEZyb20ucmVwbGFjZSgid2hhdHNhcHA6IiwgIiIpCiAgICAjIFRPRE86IGhhbmRsZSBpbmNvbWluZyBtZWRpYSAoZG9jdW1lbnRzKSB3aGVuIE51bU1lZGlhID4gMAogICAgcmVwbHkgPSBydW5fYWdlbnQocGhvbmUsIEJvZHksIHBlcnNvbmE9ImNsaWVudCIpCiAgICByZXR1cm4gSlNPTlJlc3BvbnNlKHsicmVwbHkiOiByZXBseX0pCgoKIyAtLS0gRG9vciAyOiBCYXNlNDQgYXR0b3JuZXkvcGFyYWxlZ2FsIGNoYXQgLS0tCkBhcHAucG9zdCgiL2FwaS9hdHRvcm5leS1jaGF0IikKYXN5bmMgZGVmIGF0dG9ybmV5X2NoYXQocmVxdWVzdDogUmVxdWVzdCk6CiAgICBkYXRhID0gYXdhaXQgcmVxdWVzdC5qc29uKCkKICAgIG1lc3NhZ2UgPSBkYXRhLmdldCgibWVzc2FnZSIsICIiKQogICAgYXR0b3JuZXlfaWQgPSBkYXRhLmdldCgiYXR0b3JuZXlfaWQiLCAiZmlybSIpCiAgICByZXBseSA9IHJ1bl9hZ2VudChmImZpcm06e2F0dG9ybmV5X2lkfSIsIG1lc3NhZ2UsIHBlcnNvbmE9ImZpcm0iKQogICAgcmV0dXJuIHsicmVwbHkiOiByZXBseX0KCgojIC0tLSBJbnZpdGUgYWNjZXB0IC0tLQpAYXBwLmdldCgiL2FjY2VwdC97dG9rZW59IikKYXN5bmMgZGVmIGFjY2VwdF9pbnZpdGUodG9rZW46IHN0cik6CiAgICAjIFRPRE86IGxvb2sgdXAgdG9rZW4gLT4gcGhvbmUsIG1hcmsgY2xpZW50IGFjdGl2ZQogICAgIyBGb3Igbm93LCByZXR1cm4gdGhlIGdyZWV0aW5nIHRlbXBsYXRlCiAgICByZXR1cm4geyJtZXNzYWdlIjogIlRva2VuIGFjY2VwdGVkICh3aXJpbmcgcGVuZGluZykiLCAidG9rZW4iOiB0b2tlbn0KCgojIC0tLSBEYXNoYm9hcmQgcmVhZHMgKEJhc2U0NCkgLS0tCkBhcHAuZ2V0KCIvYXBpL2NsaWVudHMiKQphc3luYyBkZWYgbGlzdF9jbGllbnRzKCk6CiAgICAjIFRPRE86IHJldHVybiBhbGwgY2xpZW50cwogICAgcmV0dXJuIHsiY2xpZW50cyI6IFtdfQoKCkBhcHAuZ2V0KCIvYXBpL3Jldmlldy1xdWV1ZSIpCmFzeW5jIGRlZiByZXZpZXdfcXVldWUoKToKICAgIHJldHVybiB7Iml0ZW1zIjogZGIuZ2V0X3Jldmlld19xdWV1ZSgpfQoKCkBhcHAuZ2V0KCIvYXBpL2RvY3VtZW50cyIpCmFzeW5jIGRlZiBkb2N1bWVudHMoKToKICAgICMgVE9ETzogcmV0dXJuIGRvY3VtZW50IHBhY2thZ2VzCiAgICByZXR1cm4geyJwYWNrYWdlcyI6IFtdfQoKCkBhcHAucG9zdCgiL2FwaS9pbnZpdGUiKQphc3luYyBkZWYgaW52aXRlKHJlcXVlc3Q6IFJlcXVlc3QpOgogICAgZnJvbSB0b29scyBpbXBvcnQgc2VuZF9pbnZpdGUKICAgIGRhdGEgPSBhd2FpdCByZXF1ZXN0Lmpzb24oKQogICAgcmVzdWx0ID0gc2VuZF9pbnZpdGUoZGF0YVsicGhvbmUiXSwgZGF0YVsiY2xpZW50X25hbWUiXSwgZGF0YS5nZXQoImF0dG9ybmV5X25hbWUiLCAiIikpCiAgICByZXR1cm4gcmVzdWx0CgoKQGFwcC5nZXQoIi9oZWFsdGgiKQphc3luYyBkZWYgaGVhbHRoKCk6CiAgICByZXR1cm4geyJvayI6IFRydWV9Cg==
+# app.py — Centinela FastAPI server
+# Two chat doors (WhatsApp + Base44), dashboard reads, invite accept.
+# Run: uvicorn app:app --port 8000
+
+import os
+
+from fastapi import FastAPI, Form, Request
+from fastapi.responses import JSONResponse
+
+import db
+from agent import run_agent
+
+app = FastAPI(title="Centinela")
+
+GREETING = (
+    "Hola {name}, soy Centinela, el asistente de tu abogado {attorney}. "
+    "Estoy aquí para responder tus preguntas de inmigración en español, "
+    "ayudarte con tus documentos y mantenerte al día con tu caso. "
+    "Tu información es privada: solo tú y tu abogado pueden ver esta conversación. "
+    "¿En qué te puedo ayudar hoy?"
+)
+
+
+@app.on_event("startup")
+def startup():
+    db.init_db()
+
+
+# --- Door 1: WhatsApp (Twilio webhook) ---
+@app.post("/webhook/whatsapp")
+async def whatsapp_webhook(From: str = Form(...), Body: str = Form(...),
+                           NumMedia: int = Form(0)):
+    phone = From.replace("whatsapp:", "")
+    # TODO: handle incoming media (documents) when NumMedia > 0
+    reply = run_agent(phone, Body, persona="client")
+    return JSONResponse({"reply": reply})
+
+
+# --- Door 2: Base44 attorney/paralegal chat ---
+@app.post("/api/attorney-chat")
+async def attorney_chat(request: Request):
+    data = await request.json()
+    message = data.get("message", "")
+    attorney_id = data.get("attorney_id", "firm")
+    reply = run_agent(f"firm:{attorney_id}", message, persona="firm")
+    return {"reply": reply}
+
+
+# --- Invite accept ---
+@app.get("/accept/{token}")
+async def accept_invite(token: str):
+    # TODO: look up token -> phone, mark client active
+    # For now, return the greeting template
+    return {"message": "Token accepted (wiring pending)", "token": token}
+
+
+# --- Dashboard reads (Base44) ---
+@app.get("/api/clients")
+async def list_clients():
+    # TODO: return all clients
+    return {"clients": []}
+
+
+@app.get("/api/review-queue")
+async def review_queue():
+    return {"items": db.get_review_queue()}
+
+
+@app.get("/api/documents")
+async def documents():
+    # TODO: return document packages
+    return {"packages": []}
+
+
+@app.post("/api/invite")
+async def invite(request: Request):
+    from tools import send_invite
+    data = await request.json()
+    result = send_invite(data["phone"], data["client_name"], data.get("attorney_name", ""))
+    return result
+
+
+@app.get("/health")
+async def health():
+    return {"ok": True}
