@@ -8,6 +8,9 @@ import chromadb
 import google.generativeai as genai
 import pdfplumber
 
+from dotenv import load_dotenv
+load_dotenv()
+
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 
 CORPUS_DIR = "corpus"       # 18 PDFs go here
