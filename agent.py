@@ -189,7 +189,16 @@ def run_agent(key, user_message, persona="client"):
             })
         response = chat.send_message(fn_responses)
 
-    reply = response.text or ""
+    # Safely extract text (model may return only function calls with no text part)
+    try:
+        reply = response.text or ""
+    except ValueError:
+        # No text Part in response (e.g. only function calls) — ask for a summary
+        try:
+            followup = chat.send_message("Summarize what you just did in one sentence.")
+            reply = followup.text or ""
+        except ValueError:
+            reply = ""
 
     db.save_message(key, "assistant", reply)
     session["history"].append({"role": "assistant", "text": reply})
