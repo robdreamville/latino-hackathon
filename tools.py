@@ -1,1 +1,246 @@
-IyB0b29scy5weSDigJQgQ2VudGluZWxhIGFnZW50IHRvb2xzICgxNCB0b3RhbCkKIyBFYWNoIGVudHJ5OiBkZXNjcmlwdGlvbiArIEpTT04gc2NoZW1hICsgZnVuY3Rpb24uCiMgU3R1YmJlZCB3aGVyZSB0aGUgaW50ZWdyYXRpb24gaXNuJ3QgYnVpbHQgeWV0IOKAlCBmaWxsIGluIGR1cmluZyB0aGUgaGFja2F0aG9uLgoKaW1wb3J0IGpzb24KaW1wb3J0IG9zCgppbXBvcnQgZGIKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgMS00OiBSZWFzb25pbmcgdG9vbHMKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiMgLS0tIENocm9tYSBjb2xsZWN0aW9uIChsYXp5LWxvYWRlZCkgLS0tCl9jaHJvbWFfY29sID0gTm9uZQoKZGVmIF9nZXRfY29sbGVjdGlvbigpOgogICAgZ2xvYmFsIF9jaHJvbWFfY29sCiAgICBpZiBfY2hyb21hX2NvbCBpcyBOb25lOgogICAgICAgIGltcG9ydCBjaHJvbWFkYgogICAgICAgIGNsaWVudCA9IGNocm9tYWRiLlBlcnNpc3RlbnRDbGllbnQocGF0aD0iY2hyb21hX2RiIikKICAgICAgICBfY2hyb21hX2NvbCA9IGNsaWVudC5nZXRfY29sbGVjdGlvbigidXNjaXMiKQogICAgcmV0dXJuIF9jaHJvbWFfY29sCgoKZGVmIHNlYXJjaF9kb2NzKHF1ZXJ5LCBzZXNzaW9uX2tleT1Ob25lKToKICAgICIiIlJBRyBvdmVyIHRoZSBVU0NJUyBjb3JwdXMuIENocm9tYSArIEdlbWluaSBlbWJlZGRpbmdzLiBUb3AtNCBjaHVua3MuIiIiCiAgICBpbXBvcnQgZ29vZ2xlLmdlbmVyYXRpdmVhaSBhcyBnZW5haQogICAgZW1iID0gZ2VuYWkuZW1iZWRfY29udGVudCgKICAgICAgICBtb2RlbD0ibW9kZWxzL3RleHQtZW1iZWRkaW5nLTAwNCIsIGNvbnRlbnQ9cXVlcnkpWyJlbWJlZGRpbmciXQogICAgY29sID0gX2dldF9jb2xsZWN0aW9uKCkKICAgIHJlcyA9IGNvbC5xdWVyeShxdWVyeV9lbWJlZGRpbmdzPVtlbWJdLCBuX3Jlc3VsdHM9NCkKICAgIGNodW5rcyA9IFtdCiAgICBmb3IgaSBpbiByYW5nZShsZW4ocmVzWyJpZHMiXVswXSkpOgogICAgICAgIGNodW5rcy5hcHBlbmQoewogICAgICAgICAgICAidGV4dCI6IHJlc1siZG9jdW1lbnRzIl1bMF1baV0sCiAgICAgICAgICAgICJkb2MiOiByZXNbIm1ldGFkYXRhcyJdWzBdW2ldLmdldCgiZG9jIiksCiAgICAgICAgICAgICJwYWdlIjogcmVzWyJtZXRhZGF0YXMiXVswXVtpXS5nZXQoInBhZ2UiKSwKICAgICAgICAgICAgImRpc3RhbmNlIjogcmVzWyJkaXN0YW5jZXMiXVswXVtpXSwKICAgICAgICB9KQogICAgIyBHYXRlIDE6IHJlbGV2YW5jZSBmbG9vciAoTDIgZGlzdGFuY2UsIGxvd2VyID0gYmV0dGVyKS4KICAgICMgMS4wIH49IGNvc2luZSAwLjUsIG1hdGNoaW5nIHRoZSBjbGVhbi1hZ2VudCBmbG9vci4KICAgIGNodW5rcyA9IFtjIGZvciBjIGluIGNodW5rcyBpZiBjWyJkaXN0YW5jZSJdIDwgMS4wXQogICAgcmV0dXJuIHsiY2h1bmtzIjogY2h1bmtzfQoKCmRlZiB3ZWJfc2VhcmNoKHF1ZXJ5LCBzZXNzaW9uX2tleT1Ob25lKToKICAgICIiIkZyZXNoIGluZm8gdmlhIFRhdmlseS4iIiIKICAgIGZyb20gdGF2aWx5IGltcG9ydCBUYXZpbHlDbGllbnQKICAgIGNsaWVudCA9IFRhdmlseUNsaWVudChhcGlfa2V5PW9zLmVudmlyb24uZ2V0KCJUQVZJTFlfQVBJX0tFWSIpKQogICAgcmVzID0gY2xpZW50LnNlYXJjaChxdWVyeSwgbWF4X3Jlc3VsdHM9NSwgaW5jbHVkZV9hbnN3ZXI9RmFsc2UpCiAgICByZXR1cm4gW3sidGl0bGUiOiByWyJ0aXRsZSJdLCAidXJsIjogclsidXJsIl0sICJzbmlwcGV0IjogclsiY29udGVudCJdWzo1MDBdfQogICAgICAgICAgICBmb3IgciBpbiByZXMuZ2V0KCJyZXN1bHRzIiwgW10pXQoKCmRlZiBjaGVja19jYXNlX3N0YXR1cyhyZWNlaXB0X251bWJlciwgc2Vzc2lvbl9rZXk9Tm9uZSk6CiAgICAiIiJMaXZlIFVTQ0lTIGNhc2Utc3RhdHVzIGF0dGVtcHQuIEhvbmVzdCBmYWlsdXJlIGlmIGJsb2NrZWQuIiIiCiAgICAjIFRPRE86IGF0dGVtcHQgcmVhbCBsb29rdXAgYWdhaW5zdCBlZ292LnVzY2lzLmdvdgogICAgcmV0dXJuIHsic3RhdHVzIjogInVua25vd24iLAogICAgICAgICAgICAibm90ZSI6ICJMaXZlIGxvb2t1cCBub3QgeWV0IGltcGxlbWVudGVkIOKAlCBubyBtb2NrIGRhdGEgcmV0dXJuZWQifQoKCmRlZiBmbGFnX2Zvcl9hdHRvcm5leShxdWVzdGlvbiwgY29udGV4dD0iIiwgc2Vzc2lvbl9rZXk9Tm9uZSk6CiAgICAiIiJFc2NhbGF0ZSB0byB0aGUgYXR0b3JuZXkgcmV2aWV3IHF1ZXVlLiIiIgogICAgZGIuZmxhZ19mb3JfcmV2aWV3KHNlc3Npb25fa2V5LCBxdWVzdGlvbiwgY29udGV4dCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIm1lc3NhZ2UiOiAiRmxhZ2dlZCBmb3IgYXR0b3JuZXkgcmV2aWV3In0KCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDUtOTogTWVzc2FnaW5nIHRvb2xzIChUd2lsaW8pCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgX3R3aWxpb19jbGllbnQoKToKICAgIGZyb20gdHdpbGlvLnJlc3QgaW1wb3J0IENsaWVudAogICAgcmV0dXJuIENsaWVudChvcy5lbnZpcm9uLmdldCgiVFdJTElPX1NJRCIpLCBvcy5lbnZpcm9uLmdldCgiVFdJTElPX1RPS0VOIikpCgpUV0lMSU9fV0hBVFNBUFBfRlJPTSA9IG9zLmVudmlyb24uZ2V0KCJUV0lMSU9fV0hBVFNBUFBfRlJPTSIsICJ3aGF0c2FwcDorMTQxNTUyMzg4ODYiKQoKCmRlZiBzZW5kX21lc3NhZ2UocGhvbmUsIHRleHQsIHNlc3Npb25fa2V5PU5vbmUpOgogICAgbXNnID0gX3R3aWxpb19jbGllbnQoKS5tZXNzYWdlcy5jcmVhdGUoCiAgICAgICAgZnJvbV89VFdJTElPX1dIQVRTQVBQX0ZST00sIHRvPWYid2hhdHNhcHA6e3Bob25lfSIsIGJvZHk9dGV4dCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInNpZCI6IG1zZy5zaWR9CgoKZGVmIHNlbmRfdm9pY2VfbWVzc2FnZShwaG9uZSwgdGV4dCwgc2Vzc2lvbl9rZXk9Tm9uZSk6CiAgICAiIiJFbGV2ZW5MYWJzIFRUUyAtPiBNUDMgLT4gV2hhdHNBcHAgdm9pY2Ugbm90ZS4iIiIKICAgICMgVE9ETzogRWxldmVuTGFicyBUVFMsIHNhdmUgTVAzLCBzZXJ2ZSB2aWEgbmdyb2ssIFR3aWxpbyBtZWRpYSBtZXNzYWdlCiAgICByZXR1cm4geyJvayI6IEZhbHNlLCAibm90ZSI6ICJWb2ljZSBub3Qgd2lyZWQgeWV0In0KCgpkZWYgc2VuZF9pbnZpdGUocGhvbmUsIGNsaWVudF9uYW1lLCBhdHRvcm5leV9uYW1lLCBzZXNzaW9uX2tleT1Ob25lKToKICAgICIiIlNNUyBpbnZpdGUgd2l0aCBhY2NlcHQgbGluay4gVG9rZW4gc3RvcmVkIGluIERCLiIiIgogICAgaW1wb3J0IHNlY3JldHMKICAgIHRva2VuID0gc2VjcmV0cy50b2tlbl91cmxzYWZlKDE2KQogICAgIyBUT0RPOiBzdG9yZSB0b2tlbiAtPiBwaG9uZSBtYXBwaW5nOyBidWlsZCBhY2NlcHQgVVJMIGZyb20gbmdyb2sgYmFzZQogICAgYWNjZXB0X3VybCA9IGYie29zLmVudmlyb24uZ2V0KCdQVUJMSUNfVVJMJywgJycpfS9hY2NlcHQve3Rva2VufSIKICAgIGJvZHkgPSAoZiJIb2xhIHtjbGllbnRfbmFtZX0sIHthdHRvcm5leV9uYW1lfSB0ZSBpbnZpdGEgYSB1c2FyIENlbnRpbmVsYSwgIgogICAgICAgICAgICBmInR1IGFzaXN0ZW50ZSBkZSBpbm1pZ3JhY2nDs24uIEFjZXB0YSBhcXXDrToge2FjY2VwdF91cmx9IikKICAgIG1zZyA9IF90d2lsaW9fY2xpZW50KCkubWVzc2FnZXMuY3JlYXRlKAogICAgICAgIGZyb21fPW9zLmVudmlyb24uZ2V0KCJUV0lMSU9fU01TX0ZST00iKSwgdG89cGhvbmUsIGJvZHk9Ym9keSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInNpZCI6IG1zZy5zaWQsICJ0b2tlbiI6IHRva2VufQoKCmRlZiBfcmVzb2x2ZV9waG9uZShuYW1lX29yX3Bob25lKToKICAgIGlmIG5hbWVfb3JfcGhvbmUuc3RhcnRzd2l0aCgiKyIpOgogICAgICAgIHJldHVybiBuYW1lX29yX3Bob25lCiAgICAjIFRPRE86IGxvb2sgdXAgYnkgbmFtZSBpbiBjbGllbnRzIHRhYmxlCiAgICByZXR1cm4gbmFtZV9vcl9waG9uZQoKCmRlZiBtZXNzYWdlX2NsaWVudChuYW1lX29yX3Bob25lLCB0ZXh0LCBzZXNzaW9uX2tleT1Ob25lKToKICAgIHBob25lID0gX3Jlc29sdmVfcGhvbmUobmFtZV9vcl9waG9uZSkKICAgIHJldHVybiBzZW5kX21lc3NhZ2UocGhvbmUsIHRleHQpCgoKZGVmIGJyb2FkY2FzdF9tZXNzYWdlKGNsaWVudF9maWx0ZXIsIHRleHQsIHNlc3Npb25fa2V5PU5vbmUpOgogICAgIiIiU2VuZCB0byBhbGwgY2xpZW50cyBtYXRjaGluZyBmaWx0ZXIgKCdhbGwnIG9yIGEgY2FzZV90eXBlKS4iIiIKICAgICMgVE9ETzogcXVlcnkgY2xpZW50cyB0YWJsZSBieSBmaWx0ZXIKICAgIHJldHVybiB7Im9rIjogRmFsc2UsICJub3RlIjogIkJyb2FkY2FzdCBub3Qgd2lyZWQgeWV0In0KCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDEwLTExOiBBdHRvcm5leSBpbmZvIHRvb2xzCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgZ2V0X3Jldmlld19xdWV1ZShzZXNzaW9uX2tleT1Ob25lKToKICAgIHJldHVybiB7Iml0ZW1zIjogZGIuZ2V0X3Jldmlld19xdWV1ZSgpfQoKCmRlZiBnZXRfY2xpZW50X3N0YXR1cyhuYW1lX29yX3Bob25lLCBzZXNzaW9uX2tleT1Ob25lKToKICAgIHBob25lID0gX3Jlc29sdmVfcGhvbmUobmFtZV9vcl9waG9uZSkKICAgIGNsaWVudCA9IGRiLmdldF9jbGllbnQocGhvbmUpCiAgICByZWNlbnQgPSBkYi5nZXRfcmVjZW50X21lc3NhZ2VzKHBob25lLCBsaW1pdD01KQogICAgcmV0dXJuIHsiY2xpZW50IjogY2xpZW50LCAicmVjZW50X21lc3NhZ2VzIjogcmVjZW50fQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgMTItMTQ6IERvY3VtZW50IHRvb2xzCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgcmVxdWVzdF9kb2N1bWVudHMobmFtZV9vcl9waG9uZSwgZG9jX2xpc3QsIHNlc3Npb25fa2V5PU5vbmUpOgogICAgIiIiQ3JlYXRlIGNoZWNrbGlzdCwgYXNrIGNsaWVudCB2aWEgV2hhdHNBcHAuIiIiCiAgICBwaG9uZSA9IF9yZXNvbHZlX3Bob25lKG5hbWVfb3JfcGhvbmUpCiAgICBkb2NzID0gZG9jX2xpc3QgaWYgaXNpbnN0YW5jZShkb2NfbGlzdCwgbGlzdCkgZWxzZSBbZG9jX2xpc3RdCiAgICB0ZXh0ID0gKCJUdSBhYm9nYWRvIG5lY2VzaXRhIGxvcyBzaWd1aWVudGVzIGRvY3VtZW50b3M6XG4iICsKICAgICAgICAgICAgIlxuIi5qb2luKGYiLSB7ZH0iIGZvciBkIGluIGRvY3MpICsKICAgICAgICAgICAgIlxuXG5FbnbDrWFsb3MgY29tbyBmb3RvcyBwb3IgYXF1w60uIikKICAgICMgVE9ETzogc3RvcmUgY2hlY2tsaXN0IGluIGRvY3VtZW50cyB0YWJsZQogICAgcmV0dXJuIHNlbmRfbWVzc2FnZShwaG9uZSwgdGV4dCkKCgpkZWYgZ2V0X2RvY3VtZW50X3N0YXR1cyhuYW1lX29yX3Bob25lLCBzZXNzaW9uX2tleT1Ob25lKToKICAgIHBob25lID0gX3Jlc29sdmVfcGhvbmUobmFtZV9vcl9waG9uZSkKICAgICMgVE9ETzogcmVhZCBkb2N1bWVudHMgdGFibGUKICAgIHJldHVybiB7InBob25lIjogcGhvbmUsICJyZWNlaXZlZCI6IFtdLCAibWlzc2luZyI6IFtdfQoKCmRlZiBnZXRfZG9jdW1lbnRfcGFja2FnZShuYW1lX29yX3Bob25lLCBzZXNzaW9uX2tleT1Ob25lKToKICAgIHBob25lID0gX3Jlc29sdmVfcGhvbmUobmFtZV9vcl9waG9uZSkKICAgICMgVE9ETzogYnVuZGxlIHJlY2VpdmVkIGRvY3MgZm9yIGRhc2hib2FyZAogICAgcmV0dXJuIHsicGhvbmUiOiBwaG9uZSwgImRvY3VtZW50cyI6IFtdfQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUmVnaXN0cnkKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiBfc2NoZW1hKHByb3BzLCByZXF1aXJlZCk6CiAgICByZXR1cm4geyJ0eXBlIjogIm9iamVjdCIsICJwcm9wZXJ0aWVzIjogcHJvcHMsICJyZXF1aXJlZCI6IHJlcXVpcmVkfQoKU1RSID0geyJ0eXBlIjogInN0cmluZyJ9CgpUT09MUyA9IHsKICAgICJzZWFyY2hfZG9jcyI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiU2VhcmNoIHRoZSBVU0NJUyBkb2N1bWVudCBjb3JwdXMgZm9yIGltbWlncmF0aW9uIGZvcm1zLCBwcm9jZXNzZXMsIGFuZCByZXF1aXJlbWVudHMuIFVzZSBmb3IgZmFjdHVhbCBxdWVzdGlvbnMuIiwKICAgICAgICAicGFyYW1ldGVycyI6IF9zY2hlbWEoeyJxdWVyeSI6IFNUUn0sIFsicXVlcnkiXSksCiAgICAgICAgImZ1bmN0aW9uIjogc2VhcmNoX2RvY3MsCiAgICB9LAogICAgIndlYl9zZWFyY2giOiB7CiAgICAgICAgImRlc2NyaXB0aW9uIjogIlNlYXJjaCB0aGUgbGl2ZSB3ZWIgZm9yIGZyZXNoIGluZm9ybWF0aW9uOiBsYXcgY2hhbmdlcywgbmV3cywgY3VycmVudCBldmVudHMuIiwKICAgICAgICAicGFyYW1ldGVycyI6IF9zY2hlbWEoeyJxdWVyeSI6IFNUUn0sIFsicXVlcnkiXSksCiAgICAgICAgImZ1bmN0aW9uIjogd2ViX3NlYXJjaCwKICAgIH0sCiAgICAiY2hlY2tfY2FzZV9zdGF0dXMiOiB7CiAgICAgICAgImRlc2NyaXB0aW9uIjogIkxvb2sgdXAgYSBVU0NJUyBjYXNlIHN0YXR1cyBieSByZWNlaXB0IG51bWJlciAoZS5nLiBJT0UxMjM0NTY3ODkwKS4iLAogICAgICAgICJwYXJhbWV0ZXJzIjogX3NjaGVtYSh7InJlY2VpcHRfbnVtYmVyIjogU1RSfSwgWyJyZWNlaXB0X251bWJlciJdKSwKICAgICAgICAiZnVuY3Rpb24iOiBjaGVja19jYXNlX3N0YXR1cywKICAgIH0sCiAgICAiZmxhZ19mb3JfYXR0b3JuZXkiOiB7CiAgICAgICAgImRlc2NyaXB0aW9uIjogIkVzY2FsYXRlIGEgcXVlc3Rpb24gdG8gdGhlIGF0dG9ybmV5IHJldmlldyBxdWV1ZS4gVXNlIHdoZW4gaXQncyBhIGxlZ2FsIGp1ZGdtZW50IGNhbGwgb3IgeW91IGRvbid0IGtub3cgdGhlIGFuc3dlci4iLAogICAgICAgICJwYXJhbWV0ZXJzIjogX3NjaGVtYSh7InF1ZXN0aW9uIjogU1RSLCAiY29udGV4dCI6IFNUUn0sIFsicXVlc3Rpb24iXSksCiAgICAgICAgImZ1bmN0aW9uIjogZmxhZ19mb3JfYXR0b3JuZXksCiAgICB9LAogICAgInNlbmRfbWVzc2FnZSI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiU2VuZCBhIFdoYXRzQXBwIHRleHQgbWVzc2FnZSB0byBhIHBob25lIG51bWJlci4iLAogICAgICAgICJwYXJhbWV0ZXJzIjogX3NjaGVtYSh7InBob25lIjogU1RSLCAidGV4dCI6IFNUUn0sIFsicGhvbmUiLCAidGV4dCJdKSwKICAgICAgICAiZnVuY3Rpb24iOiBzZW5kX21lc3NhZ2UsCiAgICB9LAogICAgInNlbmRfdm9pY2VfbWVzc2FnZSI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiU2VuZCBhIFdoYXRzQXBwIHZvaWNlIG5vdGUgKFNwYW5pc2ggVFRTKSB0byBhIHBob25lIG51bWJlci4iLAogICAgICAgICJwYXJhbWV0ZXJzIjogX3NjaGVtYSh7InBob25lIjogU1RSLCAidGV4dCI6IFNUUn0sIFsicGhvbmUiLCAidGV4dCJdKSwKICAgICAgICAiZnVuY3Rpb24iOiBzZW5kX3ZvaWNlX21lc3NhZ2UsCiAgICB9LAogICAgInNlbmRfaW52aXRlIjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJJbnZpdGUgYSBjbGllbnQgdmlhIFNNUyB3aXRoIGFuIGFjY2VwdCBsaW5rLiIsCiAgICAgICAgInBhcmFtZXRlcnMiOiBfc2NoZW1hKHsicGhvbmUiOiBTVFIsICJjbGllbnRfbmFtZSI6IFNUUiwgImF0dG9ybmV5X25hbWUiOiBTVFJ9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbInBob25lIiwgImNsaWVudF9uYW1lIiwgImF0dG9ybmV5X25hbWUiXSksCiAgICAgICAgImZ1bmN0aW9uIjogc2VuZF9pbnZpdGUsCiAgICB9LAogICAgImJyb2FkY2FzdF9tZXNzYWdlIjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJTZW5kIG9uZSBXaGF0c0FwcCBtZXNzYWdlIHRvIG1hbnkgY2xpZW50cy4gRmlsdGVyOiAnYWxsJyBvciBhIGNhc2UgdHlwZS4iLAogICAgICAgICJwYXJhbWV0ZXJzIjogX3NjaGVtYSh7ImNsaWVudF9maWx0ZXIiOiBTVFIsICJ0ZXh0IjogU1RSfSwgWyJjbGllbnRfZmlsdGVyIiwgInRleHQiXSksCiAgICAgICAgImZ1bmN0aW9uIjogYnJvYWRjYXN0X21lc3NhZ2UsCiAgICB9LAogICAgIm1lc3NhZ2VfY2xpZW50IjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJTZW5kIGEgV2hhdHNBcHAgbWVzc2FnZSB0byBvbmUgY2xpZW50IGJ5IG5hbWUgb3IgcGhvbmUuIiwKICAgICAgICAicGFyYW1ldGVycyI6IF9zY2hlbWEoeyJuYW1lX29yX3Bob25lIjogU1RSLCAidGV4dCI6IFNUUn0sIFsibmFtZV9vcl9waG9uZSIsICJ0ZXh0Il0pLAogICAgICAgICJmdW5jdGlvbiI6IG1lc3NhZ2VfY2xpZW50LAogICAgfSwKICAgICJnZXRfcmV2aWV3X3F1ZXVlIjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJMaXN0IHBlbmRpbmcgaXRlbXMgZmxhZ2dlZCBmb3IgYXR0b3JuZXkgcmV2aWV3LiIsCiAgICAgICAgInBhcmFtZXRlcnMiOiBfc2NoZW1hKHt9LCBbXSksCiAgICAgICAgImZ1bmN0aW9uIjogZ2V0X3Jldmlld19xdWV1ZSwKICAgIH0sCiAgICAiZ2V0X2NsaWVudF9zdGF0dXMiOiB7CiAgICAgICAgImRlc2NyaXB0aW9uIjogIkdldCBhIGNsaWVudCdzIHByb2ZpbGUsIGNhc2UgZmFjdHMsIGFuZCByZWNlbnQgbWVzc2FnZXMuIiwKICAgICAgICAicGFyYW1ldGVycyI6IF9zY2hlbWEoeyJuYW1lX29yX3Bob25lIjogU1RSfSwgWyJuYW1lX29yX3Bob25lIl0pLAogICAgICAgICJmdW5jdGlvbiI6IGdldF9jbGllbnRfc3RhdHVzLAogICAgfSwKICAgICJyZXF1ZXN0X2RvY3VtZW50cyI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiQXNrIGEgY2xpZW50IGZvciBkb2N1bWVudHMgdmlhIFdoYXRzQXBwLiBDcmVhdGVzIGEgY2hlY2tsaXN0LiIsCiAgICAgICAgInBhcmFtZXRlcnMiOiBfc2NoZW1hKHsibmFtZV9vcl9waG9uZSI6IFNUUiwgImRvY19saXN0IjogU1RSfSwgWyJuYW1lX29yX3Bob25lIiwgImRvY19saXN0Il0pLAogICAgICAgICJmdW5jdGlvbiI6IHJlcXVlc3RfZG9jdW1lbnRzLAogICAgfSwKICAgICJnZXRfZG9jdW1lbnRfc3RhdHVzIjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDaGVjayB3aGF0IGRvY3VtZW50cyBhIGNsaWVudCBoYXMgc2VudCB2cy4gd2hhdCdzIG1pc3NpbmcuIiwKICAgICAgICAicGFyYW1ldGVycyI6IF9zY2hlbWEoeyJuYW1lX29yX3Bob25lIjogU1RSfSwgWyJuYW1lX29yX3Bob25lIl0pLAogICAgICAgICJmdW5jdGlvbiI6IGdldF9kb2N1bWVudF9zdGF0dXMsCiAgICB9LAogICAgImdldF9kb2N1bWVudF9wYWNrYWdlIjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJHZXQgdGhlIG9yZ2FuaXplZCBkb2N1bWVudCBwYWNrYWdlIGZvciBhIGNsaWVudCAoZm9yIHRoZSBkYXNoYm9hcmQpLiIsCiAgICAgICAgInBhcmFtZXRlcnMiOiBfc2NoZW1hKHsibmFtZV9vcl9waG9uZSI6IFNUUn0sIFsibmFtZV9vcl9waG9uZSJdKSwKICAgICAgICAiZnVuY3Rpb24iOiBnZXRfZG9jdW1lbnRfcGFja2FnZSwKICAgIH0sCn0K
+# tools.py — Centinela agent tools (14 total)
+# Each entry: description + JSON schema + function.
+# Stubbed where the integration isn't built yet — fill in during the hackathon.
+
+import json
+import os
+
+import db
+
+# ---------------------------------------------------------------------------
+# 1-4: Reasoning tools
+# ---------------------------------------------------------------------------
+
+# --- Chroma collection (lazy-loaded) ---
+_chroma_col = None
+
+def _get_collection():
+    global _chroma_col
+    if _chroma_col is None:
+        import chromadb
+        client = chromadb.PersistentClient(path="chroma_db")
+        _chroma_col = client.get_collection("uscis")
+    return _chroma_col
+
+
+def search_docs(query, session_key=None):
+    """RAG over the USCIS corpus. Chroma + Gemini embeddings. Top-4 chunks."""
+    import google.generativeai as genai
+    emb = genai.embed_content(
+        model="models/text-embedding-004", content=query)["embedding"]
+    col = _get_collection()
+    res = col.query(query_embeddings=[emb], n_results=4)
+    chunks = []
+    for i in range(len(res["ids"][0])):
+        chunks.append({
+            "text": res["documents"][0][i],
+            "doc": res["metadatas"][0][i].get("doc"),
+            "page": res["metadatas"][0][i].get("page"),
+            "distance": res["distances"][0][i],
+        })
+    # Gate 1: relevance floor (L2 distance, lower = better).
+    # 1.0 ~= cosine 0.5, matching the clean-agent floor.
+    chunks = [c for c in chunks if c["distance"] < 1.0]
+    return {"chunks": chunks}
+
+
+def web_search(query, session_key=None):
+    """Fresh info via Tavily."""
+    from tavily import TavilyClient
+    client = TavilyClient(api_key=os.environ.get("TAVILY_API_KEY"))
+    res = client.search(query, max_results=5, include_answer=False)
+    return [{"title": r["title"], "url": r["url"], "snippet": r["content"][:500]}
+            for r in res.get("results", [])]
+
+
+def check_case_status(receipt_number, session_key=None):
+    """Live USCIS case-status attempt. Honest failure if blocked."""
+    # TODO: attempt real lookup against egov.uscis.gov
+    return {"status": "unknown",
+            "note": "Live lookup not yet implemented — no mock data returned"}
+
+
+def flag_for_attorney(question, context="", session_key=None):
+    """Escalate to the attorney review queue."""
+    db.flag_for_review(session_key, question, context)
+    return {"ok": True, "message": "Flagged for attorney review"}
+
+
+# ---------------------------------------------------------------------------
+# 5-9: Messaging tools (Twilio)
+# ---------------------------------------------------------------------------
+
+def _twilio_client():
+    from twilio.rest import Client
+    return Client(os.environ.get("TWILIO_SID"), os.environ.get("TWILIO_TOKEN"))
+
+TWILIO_WHATSAPP_FROM = os.environ.get("TWILIO_WHATSAPP_FROM", "whatsapp:+14155238886")
+
+
+def send_message(phone, text, session_key=None):
+    msg = _twilio_client().messages.create(
+        from_=TWILIO_WHATSAPP_FROM, to=f"whatsapp:{phone}", body=text)
+    return {"ok": True, "sid": msg.sid}
+
+
+def send_voice_message(phone, text, session_key=None):
+    """ElevenLabs TTS -> MP3 -> WhatsApp voice note."""
+    # TODO: ElevenLabs TTS, save MP3, serve via ngrok, Twilio media message
+    return {"ok": False, "note": "Voice not wired yet"}
+
+
+def send_invite(phone, client_name, attorney_name, session_key=None):
+    """SMS invite with accept link. Token stored in DB."""
+    import secrets
+    token = secrets.token_urlsafe(16)
+    # TODO: store token -> phone mapping; build accept URL from ngrok base
+    accept_url = f"{os.environ.get('PUBLIC_URL', '')}/accept/{token}"
+    body = (f"Hola {client_name}, {attorney_name} te invita a usar Centinela, "
+            f"tu asistente de inmigración. Acepta aquí: {accept_url}")
+    msg = _twilio_client().messages.create(
+        from_=os.environ.get("TWILIO_SMS_FROM"), to=phone, body=body)
+    return {"ok": True, "sid": msg.sid, "token": token}
+
+
+def _resolve_phone(name_or_phone):
+    if name_or_phone.startswith("+"):
+        return name_or_phone
+    # TODO: look up by name in clients table
+    return name_or_phone
+
+
+def message_client(name_or_phone, text, session_key=None):
+    phone = _resolve_phone(name_or_phone)
+    return send_message(phone, text)
+
+
+def broadcast_message(client_filter, text, session_key=None):
+    """Send to all clients matching filter ('all' or a case_type)."""
+    # TODO: query clients table by filter
+    return {"ok": False, "note": "Broadcast not wired yet"}
+
+
+# ---------------------------------------------------------------------------
+# 10-11: Attorney info tools
+# ---------------------------------------------------------------------------
+
+def get_review_queue(session_key=None):
+    return {"items": db.get_review_queue()}
+
+
+def get_client_status(name_or_phone, session_key=None):
+    phone = _resolve_phone(name_or_phone)
+    client = db.get_client(phone)
+    recent = db.get_recent_messages(phone, limit=5)
+    return {"client": client, "recent_messages": recent}
+
+
+# ---------------------------------------------------------------------------
+# 12-14: Document tools
+# ---------------------------------------------------------------------------
+
+def request_documents(name_or_phone, doc_list, session_key=None):
+    """Create checklist, ask client via WhatsApp."""
+    phone = _resolve_phone(name_or_phone)
+    docs = doc_list if isinstance(doc_list, list) else [doc_list]
+    text = ("Tu abogado necesita los siguientes documentos:\n" +
+            "\n".join(f"- {d}" for d in docs) +
+            "\n\nEnvíalos como fotos por aquí.")
+    # TODO: store checklist in documents table
+    return send_message(phone, text)
+
+
+def get_document_status(name_or_phone, session_key=None):
+    phone = _resolve_phone(name_or_phone)
+    # TODO: read documents table
+    return {"phone": phone, "received": [], "missing": []}
+
+
+def get_document_package(name_or_phone, session_key=None):
+    phone = _resolve_phone(name_or_phone)
+    # TODO: bundle received docs for dashboard
+    return {"phone": phone, "documents": []}
+
+
+# ---------------------------------------------------------------------------
+# Registry
+# ---------------------------------------------------------------------------
+
+def _schema(props, required):
+    return {"type": "object", "properties": props, "required": required}
+
+STR = {"type": "string"}
+
+TOOLS = {
+    "search_docs": {
+        "description": "Search the USCIS document corpus for immigration forms, processes, and requirements. Use for factual questions.",
+        "parameters": _schema({"query": STR}, ["query"]),
+        "function": search_docs,
+    },
+    "web_search": {
+        "description": "Search the live web for fresh information: law changes, news, current events.",
+        "parameters": _schema({"query": STR}, ["query"]),
+        "function": web_search,
+    },
+    "check_case_status": {
+        "description": "Look up a USCIS case status by receipt number (e.g. IOE1234567890).",
+        "parameters": _schema({"receipt_number": STR}, ["receipt_number"]),
+        "function": check_case_status,
+    },
+    "flag_for_attorney": {
+        "description": "Escalate a question to the attorney review queue. Use when it's a legal judgment call or you don't know the answer.",
+        "parameters": _schema({"question": STR, "context": STR}, ["question"]),
+        "function": flag_for_attorney,
+    },
+    "send_message": {
+        "description": "Send a WhatsApp text message to a phone number.",
+        "parameters": _schema({"phone": STR, "text": STR}, ["phone", "text"]),
+        "function": send_message,
+    },
+    "send_voice_message": {
+        "description": "Send a WhatsApp voice note (Spanish TTS) to a phone number.",
+        "parameters": _schema({"phone": STR, "text": STR}, ["phone", "text"]),
+        "function": send_voice_message,
+    },
+    "send_invite": {
+        "description": "Invite a client via SMS with an accept link.",
+        "parameters": _schema({"phone": STR, "client_name": STR, "attorney_name": STR},
+                              ["phone", "client_name", "attorney_name"]),
+        "function": send_invite,
+    },
+    "broadcast_message": {
+        "description": "Send one WhatsApp message to many clients. Filter: 'all' or a case type.",
+        "parameters": _schema({"client_filter": STR, "text": STR}, ["client_filter", "text"]),
+        "function": broadcast_message,
+    },
+    "message_client": {
+        "description": "Send a WhatsApp message to one client by name or phone.",
+        "parameters": _schema({"name_or_phone": STR, "text": STR}, ["name_or_phone", "text"]),
+        "function": message_client,
+    },
+    "get_review_queue": {
+        "description": "List pending items flagged for attorney review.",
+        "parameters": _schema({}, []),
+        "function": get_review_queue,
+    },
+    "get_client_status": {
+        "description": "Get a client's profile, case facts, and recent messages.",
+        "parameters": _schema({"name_or_phone": STR}, ["name_or_phone"]),
+        "function": get_client_status,
+    },
+    "request_documents": {
+        "description": "Ask a client for documents via WhatsApp. Creates a checklist.",
+        "parameters": _schema({"name_or_phone": STR, "doc_list": STR}, ["name_or_phone", "doc_list"]),
+        "function": request_documents,
+    },
+    "get_document_status": {
+        "description": "Check what documents a client has sent vs. what's missing.",
+        "parameters": _schema({"name_or_phone": STR}, ["name_or_phone"]),
+        "function": get_document_status,
+    },
+    "get_document_package": {
+        "description": "Get the organized document package for a client (for the dashboard).",
+        "parameters": _schema({"name_or_phone": STR}, ["name_or_phone"]),
+        "function": get_document_package,
+    },
+}
