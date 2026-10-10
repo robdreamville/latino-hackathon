@@ -1,1 +1,64 @@
-IyBpbmdlc3QucHkg4oCUIFBERiBjb3JwdXMgLT4gQ2hyb21hIChydW4gb25jZSkKIyBwZGZwbHVtYmVyIC0+IGNsZWFuIC0+IDUwMC10b2tlbiBjaHVua3MgLT4gdGV4dC1lbWJlZGRpbmctMDA0IC0+IENocm9tYQojIFRoZSBTQU1FIGVtYmVkZGluZyBtb2RlbCBtdXN0IGJlIHVzZWQgYXQgcXVlcnkgdGltZSBpbiBzZWFyY2hfZG9jcy4KCmltcG9ydCBvcwoKaW1wb3J0IGNocm9tYWRiCmltcG9ydCBnb29nbGUuZ2VuZXJhdGl2ZWFpIGFzIGdlbmFpCmltcG9ydCBwZGZwbHVtYmVyCgpnZW5haS5jb25maWd1cmUoYXBpX2tleT1vcy5lbnZpcm9uLmdldCgiR0VNSU5JX0FQSV9LRVkiKSkKCkNPUlBVU19ESVIgPSAiY29ycHVzIiAgICAgICAjIDE4IFBERnMgZ28gaGVyZQpDSFJPTUFfRElSID0gImNocm9tYV9kYiIKQ09MTEVDVElPTiA9ICJ1c2NpcyIKQ0hVTktfVE9LRU5TID0gNTAwICAgICAgICAgICMgfjIwMDAgY2hhcnMKCgpkZWYgY2xlYW5fdGV4dCh0ZXh0KToKICAgIGxpbmVzID0gW2wuc3RyaXAoKSBmb3IgbCBpbiB0ZXh0LnNwbGl0KCJcbiIpXQogICAgIyBEcm9wIGxpa2VseSBoZWFkZXJzL2Zvb3RlcnMvcGFnZSBudW1iZXJzCiAgICBsaW5lcyA9IFtsIGZvciBsIGluIGxpbmVzIGlmIGwgYW5kIG5vdCBsLmlzZGlnaXQoKSBhbmQgbGVuKGwpID4gMl0KICAgIHJldHVybiAiXG4iLmpvaW4obGluZXMpCgoKZGVmIGNodW5rKHRleHQsIHNpemU9Q0hVTktfVE9LRU5TICogNCwgb3ZlcmxhcD0yMDApOgogICAgY2h1bmtzID0gW10KICAgIHN0YXJ0ID0gMAogICAgd2hpbGUgc3RhcnQgPCBsZW4odGV4dCk6CiAgICAgICAgY2h1bmtzLmFwcGVuZCh0ZXh0W3N0YXJ0OnN0YXJ0ICsgc2l6ZV0pCiAgICAgICAgc3RhcnQgKz0gc2l6ZSAtIG92ZXJsYXAKICAgIHJldHVybiBjaHVua3MKCgpkZWYgbWFpbigpOgogICAgY2xpZW50ID0gY2hyb21hZGIuUGVyc2lzdGVudENsaWVudChwYXRoPUNIUk9NQV9ESVIpCiAgICBjb2wgPSBjbGllbnQuZ2V0X29yX2NyZWF0ZV9jb2xsZWN0aW9uKENPTExFQ1RJT04pCgogICAgcGRmcyA9IFtmIGZvciBmIGluIG9zLmxpc3RkaXIoQ09SUFVTX0RJUikgaWYgZi5lbmRzd2l0aCgiLnBkZiIpXQogICAgcHJpbnQoZiJJbmdlc3Rpbmcge2xlbihwZGZzKX0gUERGcy4uLiIpCgogICAgZm9yIHBkZl9maWxlIGluIHBkZnM6CiAgICAgICAgcGF0aCA9IG9zLnBhdGguam9pbihDT1JQVVNfRElSLCBwZGZfZmlsZSkKICAgICAgICB3aXRoIHBkZnBsdW1iZXIub3BlbihwYXRoKSBhcyBwZGY6CiAgICAgICAgICAgIGZvciBpLCBwYWdlIGluIGVudW1lcmF0ZShwZGYucGFnZXMpOgogICAgICAgICAgICAgICAgdGV4dCA9IGNsZWFuX3RleHQocGFnZS5leHRyYWN0X3RleHQoKSBvciAiIikKICAgICAgICAgICAgICAgIGlmIGxlbih0ZXh0KSA8IDEwMDoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgZm9yIGosIGNoIGluIGVudW1lcmF0ZShjaHVuayh0ZXh0KSk6CiAgICAgICAgICAgICAgICAgICAgZW1iID0gZ2VuYWkuZW1iZWRfY29udGVudCgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kZWw9Im1vZGVscy90ZXh0LWVtYmVkZGluZy0wMDQiLCBjb250ZW50PWNoKVsiZW1iZWRkaW5nIl0KICAgICAgICAgICAgICAgICAgICBjb2wuYWRkKAogICAgICAgICAgICAgICAgICAgICAgICBpZHM9W2Yie3BkZl9maWxlfS1we2l9LWN7an0iXSwKICAgICAgICAgICAgICAgICAgICAgICAgZW1iZWRkaW5ncz1bZW1iXSwKICAgICAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnRzPVtjaF0sCiAgICAgICAgICAgICAgICAgICAgICAgIG1ldGFkYXRhcz1beyJkb2MiOiBwZGZfZmlsZSwgInBhZ2UiOiBpICsgMX1dLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICBwcmludChmIiAgZG9uZToge3BkZl9maWxlfSIpCgogICAgcHJpbnQoZiJUb3RhbCBjaHVua3M6IHtjb2wuY291bnQoKX0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+# ingest.py — PDF corpus -> Chroma (run once)
+# pdfplumber -> clean -> 500-token chunks -> text-embedding-004 -> Chroma
+# The SAME embedding model must be used at query time in search_docs.
+
+import os
+
+import chromadb
+import google.generativeai as genai
+import pdfplumber
+
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+
+CORPUS_DIR = "corpus"       # 18 PDFs go here
+CHROMA_DIR = "chroma_db"
+COLLECTION = "uscis"
+CHUNK_TOKENS = 500          # ~2000 chars
+
+
+def clean_text(text):
+    lines = [l.strip() for l in text.split("\n")]
+    # Drop likely headers/footers/page numbers
+    lines = [l for l in lines if l and not l.isdigit() and len(l) > 2]
+    return "\n".join(lines)
+
+
+def chunk(text, size=CHUNK_TOKENS * 4, overlap=200):
+    chunks = []
+    start = 0
+    while start < len(text):
+        chunks.append(text[start:start + size])
+        start += size - overlap
+    return chunks
+
+
+def main():
+    client = chromadb.PersistentClient(path=CHROMA_DIR)
+    col = client.get_or_create_collection(COLLECTION)
+
+    pdfs = [f for f in os.listdir(CORPUS_DIR) if f.endswith(".pdf")]
+    print(f"Ingesting {len(pdfs)} PDFs...")
+
+    for pdf_file in pdfs:
+        path = os.path.join(CORPUS_DIR, pdf_file)
+        with pdfplumber.open(path) as pdf:
+            for i, page in enumerate(pdf.pages):
+                text = clean_text(page.extract_text() or "")
+                if len(text) < 100:
+                    continue
+                for j, ch in enumerate(chunk(text)):
+                    emb = genai.embed_content(
+                        model="models/text-embedding-004", content=ch)["embedding"]
+                    col.add(
+                        ids=[f"{pdf_file}-p{i}-c{j}"],
+                        embeddings=[emb],
+                        documents=[ch],
+                        metadatas=[{"doc": pdf_file, "page": i + 1}],
+                    )
+        print(f"  done: {pdf_file}")
+
+    print(f"Total chunks: {col.count()}")
+
+
+if __name__ == "__main__":
+    main()
